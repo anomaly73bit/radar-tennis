@@ -1,7 +1,7 @@
 {
- "time": "2026-10-20T14:15+00:00",
+ "time": "2026-10-20T18:14+00:00",
  "month": "2026-10",
- "remaining": 495,
+ "remaining": 494,
  "tournaments": [
   [
    "tennis_atp_aus_open_singles",
@@ -246,23 +246,11 @@
  ],
  "events": [
   {
-   "home": "Katarzyna Kawa",
-   "away": "Daria Snigur",
-   "start": "2026-10-20T10:45:00Z",
-   "key": "tennis_wta_ningbo_open",
-   "p_home": 0.5067,
-   "src": [
-    "betfair_ex_eu",
-    "matchbook",
-    "pinnacle"
-   ]
-  },
-  {
    "home": "Marie Bouzkova",
    "away": "Anastasia Zakharova",
    "start": "2026-10-21T05:00:00Z",
    "key": "tennis_wta_ningbo_open",
-   "p_home": 0.774,
+   "p_home": 0.7879,
    "src": [
     "betfair_ex_eu",
     "matchbook",
@@ -274,7 +262,7 @@
    "away": "Aliaksandra Sasnovich",
    "start": "2026-10-21T06:30:00Z",
    "key": "tennis_wta_ningbo_open",
-   "p_home": 0.6363,
+   "p_home": 0.6617,
    "src": [
     "betfair_ex_eu",
     "matchbook",
@@ -286,7 +274,7 @@
    "away": "Sara Bejlek",
    "start": "2026-10-21T08:00:00Z",
    "key": "tennis_wta_ningbo_open",
-   "p_home": 0.6469,
+   "p_home": 0.6966,
    "src": [
     "betfair_ex_eu",
     "matchbook"
@@ -297,10 +285,11 @@
    "away": "Marta Kostyuk",
    "start": "2026-10-21T11:00:00Z",
    "key": "tennis_wta_ningbo_open",
-   "p_home": 0.427,
+   "p_home": 0.4092,
    "src": [
     "betfair_ex_eu",
-    "matchbook"
+    "matchbook",
+    "pinnacle"
    ]
   },
   {
@@ -308,10 +297,22 @@
    "away": "Diana Shnaider",
    "start": "2026-10-22T04:00:00Z",
    "key": "tennis_wta_ningbo_open",
-   "p_home": 0.4201,
+   "p_home": 0.4069,
    "src": [
     "betfair_ex_eu",
     "matchbook",
+    "pinnacle"
+   ]
+  },
+  {
+   "home": "Katarzyna Kawa",
+   "away": "Belinda Bencic",
+   "start": "2026-10-22T04:00:00Z",
+   "key": "tennis_wta_ningbo_open",
+   "p_home": 0.122,
+   "src": [
+    "matchbook",
+    "betfair_ex_eu",
     "pinnacle"
    ]
   },
@@ -320,7 +321,7 @@
    "away": "Polina Kudermetova",
    "start": "2026-10-22T04:00:00Z",
    "key": "tennis_wta_ningbo_open",
-   "p_home": 0.8654,
+   "p_home": 0.8643,
    "src": [
     "betfair_ex_eu",
     "matchbook",
@@ -332,7 +333,7 @@
    "away": "Jasmine Paolini",
    "start": "2026-10-22T04:00:00Z",
    "key": "tennis_wta_ningbo_open",
-   "p_home": 0.6554,
+   "p_home": 0.6489,
    "src": [
     "betfair_ex_eu",
     "matchbook",
