@@ -1,0 +1,23 @@
+name: Email di prova
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - working-directory: robot
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: |
+          python - <<'PY'
+          import notify
+          notify.send_new_picks([{"pick": "PROVA - Cameron Norrie", "opp": "Benjamin Bonzi", "tournament": "Email di prova, non giocare",
+                                  "start": "2026-10-21T14:10:00Z", "odds": 1.9, "pmodel": 0.58}])
+          PY
