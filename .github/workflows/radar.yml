@@ -1,0 +1,37 @@
+name: Radar Tennis
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # ogni 30 minuti
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tennis
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Quote Unibet, risultati e pagina
+        working-directory: robot
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          FORCE_SHARP: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
+        run: python robot.py
+      - name: Salva
+        run: |
+          git config user.name "radar-tennis"
+          git config user.email "tennis-robot@users.noreply.github.com"
+          git add robot/state.json robot/bets.json docs/index.html; [ -f robot/sharp.json ] && git add robot/sharp.json || true
+          git diff --cached --quiet || git commit -m "Radar tennis: $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git pull --rebase -q origin main || true
+          git push
