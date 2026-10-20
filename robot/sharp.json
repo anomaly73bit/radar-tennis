@@ -1,7 +1,7 @@
 {
- "time": "2026-10-20T13:45+00:00",
+ "time": "2026-10-20T13:52+00:00",
  "month": "2026-10",
- "remaining": 498,
+ "remaining": 497,
  "tournaments": [
   [
    "tennis_atp_aus_open_singles",
@@ -250,10 +250,11 @@
    "away": "Daria Snigur",
    "start": "2026-10-20T10:45:00Z",
    "key": "tennis_wta_ningbo_open",
-   "p_home": 0.33,
+   "p_home": 0.3763,
    "src": [
     "betfair_ex_eu",
-    "matchbook"
+    "matchbook",
+    "pinnacle"
    ]
   },
   {
@@ -261,7 +262,7 @@
    "away": "Anastasia Zakharova",
    "start": "2026-10-21T05:00:00Z",
    "key": "tennis_wta_ningbo_open",
-   "p_home": 0.767,
+   "p_home": 0.7704,
    "src": [
     "betfair_ex_eu",
     "matchbook",
@@ -296,7 +297,7 @@
    "away": "Diana Shnaider",
    "start": "2026-10-22T04:00:00Z",
    "key": "tennis_wta_ningbo_open",
-   "p_home": 0.4097,
+   "p_home": 0.4064,
    "src": [
     "betfair_ex_eu",
     "matchbook",
@@ -308,7 +309,7 @@
    "away": "Polina Kudermetova",
    "start": "2026-10-22T04:00:00Z",
    "key": "tennis_wta_ningbo_open",
-   "p_home": 0.8583,
+   "p_home": 0.8626,
    "src": [
     "betfair_ex_eu",
     "matchbook",
@@ -320,7 +321,7 @@
    "away": "Jasmine Paolini",
    "start": "2026-10-22T04:00:00Z",
    "key": "tennis_wta_ningbo_open",
-   "p_home": 0.6317,
+   "p_home": 0.6562,
    "src": [
     "betfair_ex_eu",
     "pinnacle"
