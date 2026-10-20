@@ -37,6 +37,12 @@ ol.tips{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;ga
 .big{font:800 40px/1 var(--f-display);color:var(--ball);font-variant-numeric:tabular-nums}
 .big.q{color:var(--line)}
 .cap{font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:var(--dim)}
+.how{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.step{display:flex;gap:10px;align-items:flex-start;border-top:2px solid var(--line);padding-top:10px}
+.step p{margin:0;font-size:14px;line-height:1.45;color:var(--line)}
+.step b{color:var(--ball);font-weight:700}
+.sn{font:800 34px/0.9 var(--f-display);color:var(--ball)}
+@media (max-width:700px){.how{grid-template-columns:1fr}}
 .nothing{color:var(--dim);padding:6px 0}
 details{border-top:2px solid rgba(238,243,238,.25);padding-top:10px}
 summary{cursor:pointer;font:600 14px var(--f-body);color:var(--dim)}
@@ -78,6 +84,12 @@ footer{font:12px var(--f-mono);color:var(--dim);text-align:center}
   <h1>Radar <i>Tennis</i></h1>
   <div class="upd">aggiornato<br>%%updated%%</div>
 </header>
+
+<section class="how" aria-label="Come funziona">
+  <div class="step"><span class="sn">1</span><p>Il robot legge le quote di <b>Pinnacle</b> e <b>Betfair</b>, i bookmaker più precisi al mondo, e ne ricava la <b>probabilità vera</b> che ogni giocatore vinca.</p></div>
+  <div class="step"><span class="sn">2</span><p>La confronta con la quota di <b>Unibet</b>. Se Unibet paga almeno il <b>3% in più</b> di quanto dovrebbe, la partita finisce in «Da giocare».</p></div>
+  <div class="step"><span class="sn">3</span><p>Punti sul giocatore indicato. Vincerai e perderai spesso, ma nel lungo periodo le quote pagate più del giusto dovrebbero dare un guadagno. Le simulazioni qui sotto lo verificano con 200 €.</p></div>
+</section>
 
 <section class="court" aria-labelledby="g">
   <h2 id="g">Da giocare <span class="n">%%ntips%%</span></h2>
