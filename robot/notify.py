@@ -24,7 +24,7 @@ def send_new_picks(new_bets):
         f'<tr><td style="padding:10px 12px;border-bottom:1px solid #2b5d93"><div style="font:700 20px Arial,sans-serif;color:#e3f25a">{i}. {html.escape(b["pick"])}</div>'
         f'<div style="font:14px Arial,sans-serif;color:#cfdbe6">vs {html.escape(b["opp"])} · {html.escape(b["tournament"])} · {when(b["start"])}</div></td>'
         f'<td style="padding:10px 12px;border-bottom:1px solid #2b5d93;text-align:right;font:14px Arial,sans-serif;color:#ffffff;white-space:nowrap">'
-        f'<b style="font-size:20px">{b["odds"]:.2f}</b> quota<br>{b["pmodel"] * 100:.0f}% vittoria</td></tr>'.replace(".", ",", 1)
+        f'<b style="font-size:20px">{b["odds"]:.2f}</b> quota<br>{b["pmodel"] * 100:.0f}% vittoria</td></tr>'.replace(f'{b["odds"]:.2f}', f'{b["odds"]:.2f}'.replace(".", ","))
         for i, b in enumerate(new_bets, 1))
     body = (f'<div style="background:#15372a;padding:20px"><div style="max-width:560px;margin:0 auto;background:#1d4b80;border:2px solid #eef3ee;border-radius:3px">'
             f'<div style="padding:14px 12px;font:800 24px Arial,sans-serif;color:#ffffff;text-transform:uppercase">Radar Tennis · da giocare</div>'
