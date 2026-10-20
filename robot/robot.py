@@ -12,6 +12,7 @@ Nessuna scommessa vera viene piazzata.
 import datetime, html, json, os, pathlib, sys, unicodedata, urllib.request, zoneinfo
 from tennis_model import State, Names, predict_b, as_date, norm
 import sharp
+import notify
 
 HERE = pathlib.Path(__file__).resolve().parent
 OUT = HERE.parent / "docs" / "index.html"
@@ -417,7 +418,9 @@ def main():
     names = Names(list(st.elo.keys()))
     matches = scan(st, names, model)
     attach_sharp(matches, sharp_update())
+    before = {b["id"] for b in bets}
     bets = paper(bets, matches, results)
+    notify.send_new_picks([b for b in bets if b["id"] not in before])
     out = st.to_json()
     out.update(surfaces=st.surfaces, espn_done=st.espn_done, base_date=st.base_date)
     STATE.write_text(json.dumps(out, separators=(",", ":")))
