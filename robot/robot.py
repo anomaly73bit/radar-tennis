@@ -339,10 +339,10 @@ def build_page(matches, bets, bt, model):
         f'<div class="fig"><span class="big q">{num(q)}</span><span class="cap">quota</span></div></li>'
         for i, (v, m, side, q, p) in enumerate(picks, 1))
     if not tips:
-        tips = '<li class="nothing">Nessuna partita da giocare adesso. Si aggiorna ogni 30 minuti.</li>'
+        tips = '<li class="nothing">Adesso nessuna partita in cui Unibet paga più del giusto. Quando ce ne sarà una, comparirà qui con su chi puntare. Si aggiorna ogni 30 minuti.</li>'
 
     # --- tutte le partite ---
-    prob = lambda m: m.get("fair1", m.get("pm1"))
+    prob = lambda m: m.get("fair1")
     allrows = "".join(
         f'<tr><td class="mono">{t(m["start"])}</td><td>{esc(m["p1"])}<br>{esc(m["p2"])}</td>'
         f'<td class="r mono">{num(m["q1"])}<br>{num(m["q2"])}</td>'
