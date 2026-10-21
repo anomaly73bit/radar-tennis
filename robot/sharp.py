@@ -64,7 +64,7 @@ def analyse(ev):
     def h2h(b):
         m = next((m for m in b.get("markets", []) if m["key"] == "h2h"), None)
         return {o["name"]: o["price"] for o in m["outcomes"]} if m else None
-    names, probs, weights = None, [], []
+    names, probs, weights, srcs = None, [], [], []
     for b in ev.get("bookmakers", []):
         if b["key"] not in SHARP:
             continue
@@ -77,10 +77,17 @@ def analyse(ev):
             continue
         inv = {k: 1 / v for k, v in o.items()}
         tot = sum(inv.values())
+        if not (0.99 <= tot <= 1.09):      # quote non credibili (mercato senza liquidita' o errore)
+            continue
         probs.append({k: v / tot for k, v in inv.items()})
         weights.append(2 if b["key"] == "pinnacle" else 1)
+        srcs.append(b["key"])
     if not probs:
         return []
+    # serve Pinnacle, oppure almeno due fonti sharp che concordano
+    if "pinnacle" not in srcs:
+        if len(probs) < 2 or max(abs(probs[0][k] - probs[1][k]) for k in names) > 0.04:
+            return []
     fair = {k: sum(p[k] * w for p, w in zip(probs, weights)) / sum(weights) for k in names}
     best = {k: (None, None) for k in names}
     for b in ev.get("bookmakers", []):
@@ -95,6 +102,8 @@ def analyse(ev):
     out = []
     for k in names:
         q, book = best[k]
-        out.append({"name": k, "p": fair[k], "odds": q, "book": book,
-                    "value": (fair[k] * q - 1) if q else None})
+        v = (fair[k] * q - 1) if q else None
+        if v is not None and v > 0.20:     # differenza troppo grande: quasi certamente un errore di dati
+            v = None
+        out.append({"name": k, "p": fair[k], "odds": q, "book": book, "value": v})
     return out
