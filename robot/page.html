@@ -1,6 +1,6 @@
 <!doctype html><html lang="it"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Radar Tennis</title>
+<title>Radar Scommesse</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@600;800&family=Manrope:wght@400;600;700&family=DM+Mono:wght@400;500&display=swap">
@@ -30,6 +30,8 @@ ol.tips{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;ga
 .tip{display:grid;grid-template-columns:auto minmax(0,1fr) auto auto;gap:6px 18px;align-items:center;background:var(--court2);border:1px solid rgba(238,243,238,.35);border-radius:3px;padding:12px 16px}
 .no{font:800 40px/1 var(--f-display);color:var(--ball);min-width:26px}
 .who{display:flex;flex-direction:column;min-width:0}
+.sp{font:600 11px var(--f-body);letter-spacing:.08em;text-transform:uppercase;color:var(--ball)}
+.tn b{color:var(--line)}
 .pn{font:800 28px/1.05 var(--f-display);text-transform:uppercase;letter-spacing:.01em;overflow-wrap:break-word;hyphens:auto}
 .vs{color:var(--dim);font-size:14px}
 .tn{font:12.5px var(--f-mono);color:var(--dim)}
@@ -76,26 +78,28 @@ footer{font:12px var(--f-mono);color:var(--dim);text-align:center}
   .tip .no{grid-row:1 / span 2;align-self:start}
   .tip .who{grid-column:2 / 4}
   .tip .fig{align-items:flex-start}
-  .big{font-size:32px}.pn{font-size:24px}.bal{font-size:44px}
+  .big{font-size:32px}.sp{font:600 11px var(--f-body);letter-spacing:.08em;text-transform:uppercase;color:var(--ball)}
+.tn b{color:var(--line)}
+.pn{font-size:24px}.bal{font-size:44px}
 }
 </style></head><body><div class="wrap">
 
 <header class="top">
-  <h1>Radar <i>Tennis</i></h1>
-  <div class="upd">aggiornato<br>%%updated%%</div>
+  <h1>Radar <i>Scommesse</i></h1>
+  <div class="upd">aggiornato %%updated%%<br>quote %%oddstime%%</div>
 </header>
 
 <section class="how" aria-label="Come funziona">
-  <div class="step"><span class="sn">1</span><p>Il robot legge le quote di <b>Pinnacle</b> e <b>Betfair</b>, i bookmaker più precisi al mondo, e ne ricava la <b>probabilità vera</b> che ogni giocatore vinca.</p></div>
-  <div class="step"><span class="sn">2</span><p>La confronta con la quota di <b>Unibet</b>. Se Unibet paga almeno il <b>3% in più</b> di quanto dovrebbe, la partita finisce in «Da giocare».</p></div>
-  <div class="step"><span class="sn">3</span><p>Punti sul giocatore indicato. Vincerai e perderai spesso, ma nel lungo periodo le quote pagate più del giusto dovrebbero dare un guadagno. Le simulazioni qui sotto lo verificano con 200 €.</p></div>
+  <div class="step"><span class="sn">1</span><p>Per tennis, MMA, pugilato, basket e hockey il robot legge le quote di <b>Pinnacle</b> e <b>Betfair</b>, i bookmaker più precisi al mondo, e ne ricava la <b>probabilità vera</b> di ogni risultato.</p></div>
+  <div class="step"><span class="sn">2</span><p>La confronta con le quote di <b>%%books%%</b>. Se uno di loro paga almeno il <b>3% in più</b> del giusto, la partita finisce in «Da giocare» con il bookmaker da usare.</p></div>
+  <div class="step"><span class="sn">3</span><p>Punti su quanto indicato. Vincerai e perderai spesso, ma nel lungo periodo le quote pagate più del giusto dovrebbero dare un guadagno. Le simulazioni qui sotto lo verificano con 200 €.</p></div>
 </section>
 
 <section class="court" aria-labelledby="g">
   <h2 id="g">Da giocare <span class="n">%%ntips%%</span></h2>
   <ol class="tips">%%tips%%</ol>
-  <details><summary>Tutte le partite su Unibet (%%nall%%) · solo per consultazione, non sono consigli</summary>
-    <div class="tbl"><table><thead><tr><th>Ora</th><th>Partita</th><th class="r">Quota</th><th class="r">Prob. vera</th></tr></thead><tbody>%%allrows%%</tbody></table></div>
+  <details><summary>Tutti gli eventi in programma (%%nall%%) · solo per consultazione, non sono consigli</summary>
+    <div class="tbl"><table><thead><tr><th>Ora</th><th>Partita</th><th class="r">Quota migliore</th><th class="r">Prob. vera</th></tr></thead><tbody>%%allrows%%</tbody></table></div>
   </details>
 </section>
 
@@ -110,7 +114,7 @@ footer{font:12px var(--f-mono);color:var(--dim);text-align:center}
   </section>
 
   <section class="court sim" aria-labelledby="sp">
-    <h2 id="sp">Simulazione sul passato <small>%%pastrange%% · conto iniziale 200 € · 2% a giocata</small></h2>
+    <h2 id="sp">Simulazione sul passato <small>solo tennis · %%pastrange%% · conto iniziale 200 € · 2% a giocata</small></h2>
     %%pasthead%%
     %%pastchart%%
     <details><summary>Ultime 30 giocate</summary>
