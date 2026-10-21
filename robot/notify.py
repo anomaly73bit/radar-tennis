@@ -21,16 +21,22 @@ def send_new_picks(new_bets):
         return
     def when(iso):
         return datetime.datetime.fromisoformat(iso.replace("Z", "+00:00")).astimezone(PRAGUE).strftime("%d/%m alle %H:%M")
-    rows = "".join(
-        f'<tr><td style="padding:10px 12px;border-bottom:1px solid #2b5d93"><div style="font:700 20px Arial,sans-serif;color:#e3f25a">{i}. {ICON.get(b.get("sport"), "")} {html.escape("Pareggio" if b["pick"] == "Draw" else b["pick"])}</div>'
-        f'<div style="font:14px Arial,sans-serif;color:#cfdbe6">{("vs " + html.escape(b["opp"]) + " · ") if b.get("opp") else ""}{html.escape(b.get("league", b.get("tournament", "")))} · {when(b["start"])}<br>gioca su <b style="color:#ffffff">{html.escape(b.get("book", "Unibet"))}</b></div></td>'
-        f'<td style="padding:10px 12px;border-bottom:1px solid #2b5d93;text-align:right;font:14px Arial,sans-serif;color:#ffffff;white-space:nowrap">'
-        f'<b style="font-size:20px">{b["odds"]:.2f}</b> quota<br>{b.get("p", b.get("pmodel", 0)) * 100:.0f}% vittoria</td></tr>'.replace(f'{b["odds"]:.2f}', f'{b["odds"]:.2f}'.replace(".", ","))
-        for i, b in enumerate(new_bets, 1))
-    body = (f'<div style="background:#15372a;padding:20px"><div style="max-width:560px;margin:0 auto;background:#1d4b80;border:2px solid #eef3ee;border-radius:3px">'
-            f'<div style="padding:14px 12px;font:800 24px Arial,sans-serif;color:#ffffff;text-transform:uppercase">Radar · da giocare</div>'
-            f'<table style="width:100%;border-collapse:collapse">{rows}</table>'
-            f'<div style="padding:12px;font:13px Arial,sans-serif"><a style="color:#e3f25a" href="{PAGE}">Apri la pagina</a></div></div></div>')
+    def fmt(x):
+        return f"{x:.2f}".replace(".", ",")
+    rows = ""
+    for i, b in enumerate(new_bets, 1):
+        pick = "Pareggio" if b["pick"] == "Draw" else b["pick"]
+        p = b.get("p", b.get("pmodel", 0))
+        minq = 1 / p if p else 0
+        match = f'{b.get("home", pick)} – {b.get("away", b.get("opp", ""))}' if b.get("home") else f'{pick} – {b.get("opp", "")}'
+        rows += (
+            f'<tr><td style="padding:14px 12px;border-bottom:1px solid #2b5d93;font-family:Arial,sans-serif">'
+            f'<div style="font-size:13px;color:#cfdbe6">{i}. {ICON.get(b.get("sport"), "")} {html.escape(b.get("league", ""))} · {when(b["start"])}</div>'
+            f'<div style="font-size:14px;color:#cfdbe6">{html.escape(match)}</div>'
+            f'<div style="font-size:22px;font-weight:700;color:#e3f25a;margin:6px 0">PUNTA SU: {html.escape(pick)}</div>'
+            f'<div style="font-size:15px;color:#ffffff">su <b>{html.escape(b.get("book", "Unibet"))}</b> a quota <b>{fmt(b["odds"])}</b></div>'
+            f'<div style="font-size:14px;color:#ffffff;margin-top:4px">Gioca solo se la quota è <b>almeno {fmt(minq)}</b>. Sotto, non conviene.</div>'
+            f'<div style="font-size:13px;color:#cfdbe6;margin-top:4px">Probabilità vera di vittoria: {p * 100:.0f}%</div></td></tr>')
     names = ", ".join(b["pick"] for b in new_bets[:3]) + ("…" if len(new_bets) > 3 else "")
     msg = MIMEText(body, "html", "utf-8")
     msg["Subject"] = f"Da giocare: {names}"

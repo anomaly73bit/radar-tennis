@@ -300,9 +300,9 @@ def build_page(snap, picks, bets, bt):
     tips = "".join(
         f'<li class="tip"><span class="no">{i}</span>'
         f'<div class="who"><span class="sp">{ICON.get(p["sport"], "")} {esc(p["sport"])} · {esc(p["league"])}</span>'
-        f'<span class="pn">{esc(nm(p["pick"]))}</span>'
+        f'<span class="cap">punta su</span><span class="pn">{esc(nm(p["pick"]))}</span>'
         f'<span class="vs">{"vs " + esc(p["opp"]) if p["opp"] else ""}</span>'
-        f'<span class="tn">{t(p["start"])} · gioca su <b>{esc(p["book"])}</b></span></div>'
+        f'<span class="tn">{t(p["start"])} · gioca su <b>{esc(p["book"])}</b> solo se la quota è almeno <b>{num(1 / p["p"])}</b></span></div>'
         f'<div class="fig"><span class="big">{pct(p["p"])}</span><span class="cap">vittoria</span></div>'
         f'<div class="fig"><span class="big q">{num(p["odds"])}</span><span class="cap">quota</span></div></li>'
         for i, p in enumerate(picks, 1))
