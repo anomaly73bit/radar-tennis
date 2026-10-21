@@ -10,8 +10,8 @@ import json, os, urllib.error, urllib.parse, urllib.request
 
 BASE = "https://api.the-odds-api.com/v4"
 SHARP = ["pinnacle", "betfair_ex_eu", "matchbook"]
-SOFT = {"unibet_nl": "Unibet", "betsson": "Betsson", "nordicbet": "NordicBet",
-        "williamhill": "William Hill", "sport888": "888sport"}
+# bookmaker con licenza francese (ANJ): le quote sono quelle dei siti .fr
+SOFT = {"unibet_fr": "Unibet.fr", "winamax_fr": "Winamax", "betclic_fr": "Betclic", "pmu_fr": "PMU", "netbet_fr": "NetBet"}
 
 # sport scelti: gruppo o chiave della The Odds API -> etichetta
 SPORTS = [
