@@ -1,7 +1,7 @@
 {
  "month": "2026-10",
- "remaining": 426,
- "time": "2026-10-23T02:57+00:00",
+ "remaining": 420,
+ "time": "2026-10-23T08:18+00:00",
  "events": [
   {
    "id": "e3e99c62895e06e97c5623e7660086e1",
@@ -14,17 +14,17 @@
    "outcomes": [
     {
      "name": "ASVEL Lyon Villeurbanne",
-     "p": 0.20649262085156728,
-     "odds": 4.2,
+     "p": 0.2053597191187257,
+     "odds": 4.3,
      "book": "Winamax",
-     "value": -0.13273099242341735
+     "value": -0.1169532077894796
     },
     {
      "name": "Žalgiris",
-     "p": 0.7935073791484327,
-     "odds": 1.18,
+     "p": 0.7946402808812743,
+     "odds": 1.17,
      "book": "Winamax",
-     "value": -0.06366129260484943
+     "value": -0.0702708713689092
     }
    ]
   },
@@ -39,17 +39,17 @@
    "outcomes": [
     {
      "name": "Fenerbahce SK",
-     "p": 0.4469313352267005,
-     "odds": 2.08,
-     "book": "PMU",
-     "value": -0.07038282272846297
+     "p": 0.443106845654049,
+     "odds": 2.05,
+     "book": "Winamax",
+     "value": -0.09163096640919965
     },
     {
      "name": "Olympiacos",
-     "p": 0.5530686647732995,
-     "odds": 1.68,
-     "book": "Winamax",
-     "value": -0.07084464318085681
+     "p": 0.556893154345951,
+     "odds": 1.7,
+     "book": "PMU",
+     "value": -0.053281637611883315
     }
    ]
   },
@@ -64,42 +64,17 @@
    "outcomes": [
     {
      "name": "Paris Basketball",
-     "p": 0.34753937585198014,
+     "p": 0.34343982153148367,
      "odds": 2.55,
      "book": "Winamax",
-     "value": -0.11377459157745073
+     "value": -0.1242284550947167
     },
     {
      "name": "Valencia Basket",
-     "p": 0.65246062414802,
-     "odds": 1.45,
+     "p": 0.6565601784685164,
+     "odds": 1.44,
      "book": "Winamax",
-     "value": -0.053932094985371104
-    }
-   ]
-  },
-  {
-   "id": "223b2883b9b05a67329ef246384b85f1",
-   "key": "basketball_nba",
-   "sport": "Basket",
-   "league": "NBA",
-   "start": "2026-10-23T01:50:13Z",
-   "home": "Oklahoma City Thunder",
-   "away": "Denver Nuggets",
-   "outcomes": [
-    {
-     "name": "Denver Nuggets",
-     "p": 0.42072576702114656,
-     "odds": 2.23,
-     "book": "PMU",
-     "value": -0.061781539542843156
-    },
-    {
-     "name": "Oklahoma City Thunder",
-     "p": 0.5792742329788534,
-     "odds": 1.58,
-     "book": "Betclic",
-     "value": -0.08474671189341165
+     "value": -0.05455334300533632
     }
    ]
   },
@@ -114,17 +89,17 @@
    "outcomes": [
     {
      "name": "Chicago Bulls",
-     "p": 0.48882984806633023,
-     "odds": 1.98,
-     "book": "Betclic",
-     "value": -0.03211690082866614
+     "p": 0.4955620155038759,
+     "odds": 1.88,
+     "book": "PMU",
+     "value": -0.06834341085271334
     },
     {
      "name": "Milwaukee Bucks",
-     "p": 0.5111701519336699,
-     "odds": 1.81,
+     "p": 0.504437984496124,
+     "odds": 1.92,
      "book": "Betclic",
-     "value": -0.07478202500005748
+     "value": -0.03147906976744197
     }
    ]
   },
@@ -139,17 +114,17 @@
    "outcomes": [
     {
      "name": "Atlanta Hawks",
-     "p": 0.5659300172563642,
-     "odds": 1.68,
-     "book": "PMU",
-     "value": -0.049237571009308256
+     "p": 0.5624390487859768,
+     "odds": 1.66,
+     "book": "Betclic",
+     "value": -0.06635117901527854
     },
     {
      "name": "Charlotte Hornets",
-     "p": 0.43406998274363595,
-     "odds": 2.15,
-     "book": "NetBet",
-     "value": -0.0667495371011827
+     "p": 0.43756095121402316,
+     "odds": 2.18,
+     "book": "Betclic",
+     "value": -0.04611712635342946
     }
    ]
   },
@@ -164,17 +139,17 @@
    "outcomes": [
     {
      "name": "Boston Celtics",
-     "p": 0.5444858481427507,
+     "p": 0.5559877606005822,
      "odds": 1.7,
      "book": "Unibet.fr",
-     "value": -0.0743740581573239
+     "value": -0.05482080697901026
     },
     {
      "name": "New York Knicks",
-     "p": 0.4555141518572493,
-     "odds": 2.1,
-     "book": "Unibet.fr",
-     "value": -0.04342028109977647
+     "p": 0.4440122393994179,
+     "odds": 2.13,
+     "book": "Betclic",
+     "value": -0.05425393007923984
     }
    ]
   },
@@ -189,17 +164,17 @@
    "outcomes": [
     {
      "name": "Dallas Mavericks",
-     "p": 0.3364341085271318,
-     "odds": 2.7,
-     "book": "PMU",
-     "value": -0.09162790697674406
+     "p": 0.3299333877865771,
+     "odds": 2.78,
+     "book": "Betclic",
+     "value": -0.08278518195331575
     },
     {
      "name": "Indiana Pacers",
-     "p": 0.6635658914728682,
+     "p": 0.6700666122134229,
      "odds": 1.43,
      "book": "Betclic",
-     "value": -0.05110077519379863
+     "value": -0.041804744534805316
     }
    ]
   },
@@ -214,17 +189,17 @@
    "outcomes": [
     {
      "name": "Minnesota Timberwolves",
-     "p": 0.5348370927318296,
-     "odds": 1.74,
+     "p": 0.5359933499584373,
+     "odds": 1.76,
      "book": "Betclic",
-     "value": -0.06938345864661655
+     "value": -0.056651704073150344
     },
     {
      "name": "Orlando Magic",
-     "p": 0.46516290726817044,
-     "odds": 2.0,
-     "book": "Winamax",
-     "value": -0.06967418546365911
+     "p": 0.4640066500415628,
+     "odds": 2.03,
+     "book": "Betclic",
+     "value": -0.058066500415627664
     }
    ]
   },
@@ -239,17 +214,17 @@
    "outcomes": [
     {
      "name": "Toronto Raptors",
-     "p": 0.6656604085683566,
-     "odds": 1.43,
+     "p": 0.6903021998934308,
+     "odds": 1.39,
      "book": "Betclic",
-     "value": -0.04810561574725003
+     "value": -0.04047994214813133
     },
     {
      "name": "Washington Wizards",
-     "p": 0.3343395914316434,
-     "odds": 2.7,
-     "book": "NetBet",
-     "value": -0.09728310313456279
+     "p": 0.3096978001065692,
+     "odds": 3.1,
+     "book": "PMU",
+     "value": -0.03993681966963536
     }
    ]
   },
@@ -264,17 +239,17 @@
    "outcomes": [
     {
      "name": "Detroit Pistons",
-     "p": 0.5012365927314382,
-     "odds": 1.85,
-     "book": "NetBet",
-     "value": -0.07271230344683932
+     "p": 0.5012430020018068,
+     "odds": 1.91,
+     "book": "Betclic",
+     "value": -0.042625866176548954
     },
     {
      "name": "Miami Heat",
-     "p": 0.49876340726856194,
-     "odds": 1.88,
-     "book": "Winamax",
-     "value": -0.06232479433510363
+     "p": 0.4987569979981933,
+     "odds": 1.87,
+     "book": "Betclic",
+     "value": -0.0673244137433785
     }
    ]
   },
@@ -289,17 +264,17 @@
    "outcomes": [
     {
      "name": "Houston Rockets",
-     "p": 0.3437548278145467,
+     "p": 0.3535548704513125,
      "odds": 2.67,
-     "book": "NetBet",
-     "value": -0.08217460973516033
+     "book": "Betclic",
+     "value": -0.05600849589499568
     },
     {
      "name": "San Antonio Spurs",
-     "p": 0.6562451721854533,
-     "odds": 1.45,
-     "book": "Unibet.fr",
-     "value": -0.04844450033109271
+     "p": 0.6464451295486875,
+     "odds": 1.46,
+     "book": "Winamax",
+     "value": -0.05619011085891623
     }
    ]
   },
@@ -314,17 +289,17 @@
    "outcomes": [
     {
      "name": "New Orleans Pelicans",
-     "p": 0.44637907401766674,
-     "odds": 2.1,
-     "book": "Unibet.fr",
-     "value": -0.06260394456289975
+     "p": 0.4673096541120873,
+     "odds": 2.07,
+     "book": "NetBet",
+     "value": -0.03266901598797933
     },
     {
      "name": "Utah Jazz",
-     "p": 0.5536209259823333,
-     "odds": 1.68,
-     "book": "NetBet",
-     "value": -0.06991684434968015
+     "p": 0.5326903458879126,
+     "odds": 1.75,
+     "book": "Betclic",
+     "value": -0.06779189469615288
     }
    ]
   },
@@ -341,14 +316,14 @@
      "name": "Golden State Warriors",
      "p": 0.5734796456653728,
      "odds": 1.65,
-     "book": "PMU",
+     "book": "Betclic",
      "value": -0.0537585846521349
     },
     {
      "name": "Memphis Grizzlies",
      "p": 0.42652035433462726,
      "odds": 2.2,
-     "book": "Unibet.fr",
+     "book": "Betclic",
      "value": -0.06165522046381999
     }
    ]
@@ -364,17 +339,17 @@
    "outcomes": [
     {
      "name": "Los Angeles Clippers",
-     "p": 0.2351564785024861,
+     "p": 0.24069586439224105,
      "odds": 4.1,
      "book": "Winamax",
-     "value": -0.03585843813980705
+     "value": -0.013146955991811815
     },
     {
      "name": "Los Angeles Lakers",
-     "p": 0.7648435214975139,
+     "p": 0.759304135607759,
      "odds": 1.23,
      "book": "Betclic",
-     "value": -0.059242468558057926
+     "value": -0.0660559132024564
     }
    ]
   },
@@ -389,17 +364,17 @@
    "outcomes": [
     {
      "name": "Portland Trail Blazers",
-     "p": 0.7303667465819996,
+     "p": 0.7428489483747611,
      "odds": 1.31,
      "book": "Betclic",
-     "value": -0.04321956197758048
+     "value": -0.026867877629062842
     },
     {
      "name": "Sacramento Kings",
-     "p": 0.2696332534180004,
+     "p": 0.25715105162523905,
      "odds": 3.45,
      "book": "PMU",
-     "value": -0.0697652757078987
+     "value": -0.11282887189292523
     }
    ]
   },
@@ -429,106 +404,6 @@
    ]
   },
   {
-   "id": "7e4df53f515e77bc6555279eb5d6946a",
-   "key": "icehockey_nhl",
-   "sport": "Hockey",
-   "league": "NHL",
-   "start": "2026-10-23T01:08:09Z",
-   "home": "Calgary Flames",
-   "away": "Minnesota Wild",
-   "outcomes": [
-    {
-     "name": "Calgary Flames",
-     "p": 0.8295332634128944,
-     "odds": null,
-     "book": null,
-     "value": null
-    },
-    {
-     "name": "Minnesota Wild",
-     "p": 0.17046673658710565,
-     "odds": null,
-     "book": null,
-     "value": null
-    }
-   ]
-  },
-  {
-   "id": "8a951cc95f91e5df49f7aad4219c40e0",
-   "key": "icehockey_nhl",
-   "sport": "Hockey",
-   "league": "NHL",
-   "start": "2026-10-23T01:10:53Z",
-   "home": "Edmonton Oilers",
-   "away": "Carolina Hurricanes",
-   "outcomes": [
-    {
-     "name": "Carolina Hurricanes",
-     "p": 0.8891392130792338,
-     "odds": null,
-     "book": null,
-     "value": null
-    },
-    {
-     "name": "Edmonton Oilers",
-     "p": 0.11086078692076624,
-     "odds": null,
-     "book": null,
-     "value": null
-    }
-   ]
-  },
-  {
-   "id": "2d1a2e330020589eb147fe4736ccfd1e",
-   "key": "icehockey_nhl",
-   "sport": "Hockey",
-   "league": "NHL",
-   "start": "2026-10-23T02:08:13Z",
-   "home": "Vancouver Canucks",
-   "away": "Detroit Red Wings",
-   "outcomes": [
-    {
-     "name": "Detroit Red Wings",
-     "p": 0.8493156146568985,
-     "odds": null,
-     "book": null,
-     "value": null
-    },
-    {
-     "name": "Vancouver Canucks",
-     "p": 0.15068438534310147,
-     "odds": null,
-     "book": null,
-     "value": null
-    }
-   ]
-  },
-  {
-   "id": "ec5f71ec810aef5fc417a879c49750f1",
-   "key": "icehockey_nhl",
-   "sport": "Hockey",
-   "league": "NHL",
-   "start": "2026-10-23T02:08:42Z",
-   "home": "Seattle Kraken",
-   "away": "Utah Mammoth",
-   "outcomes": [
-    {
-     "name": "Seattle Kraken",
-     "p": 0.5527234846714256,
-     "odds": null,
-     "book": null,
-     "value": null
-    },
-    {
-     "name": "Utah Mammoth",
-     "p": 0.4472765153285743,
-     "odds": null,
-     "book": null,
-     "value": null
-    }
-   ]
-  },
-  {
    "id": "db9d82d62d8f222bfd835100662c6ac6",
    "key": "icehockey_nhl",
    "sport": "Hockey",
@@ -539,17 +414,17 @@
    "outcomes": [
     {
      "name": "Chicago Blackhawks",
-     "p": 0.43241474373138883,
-     "odds": 2.07,
+     "p": 0.41557144894757214,
+     "odds": 2.1,
      "book": "NetBet",
-     "value": -0.10490148047602521
+     "value": -0.12729995721009846
     },
     {
      "name": "Montréal Canadiens",
-     "p": 0.5675852562686112,
-     "odds": 1.6,
+     "p": 0.5844285510524277,
+     "odds": 1.57,
      "book": "NetBet",
-     "value": -0.09186358997022204
+     "value": -0.08244717484768838
     }
    ]
   },
@@ -564,17 +439,17 @@
    "outcomes": [
     {
      "name": "Colorado Avalanche",
-     "p": 0.5416010057953792,
-     "odds": 1.68,
+     "p": 0.5411214973340118,
+     "odds": 1.65,
      "book": "NetBet",
-     "value": -0.09011031026376304
+     "value": -0.10714952939888056
     },
     {
      "name": "Tampa Bay Lightning",
-     "p": 0.45839899420462077,
-     "odds": 1.93,
+     "p": 0.45887850266598806,
+     "odds": 1.95,
      "book": "NetBet",
-     "value": -0.11528994118508196
+     "value": -0.10518691980132333
     }
    ]
   },
@@ -589,17 +464,17 @@
    "outcomes": [
     {
      "name": "Aaron Pico",
-     "p": 0.5642101284958427,
+     "p": 0.5658340068700748,
      "odds": 1.64,
      "book": "Betclic",
-     "value": -0.07469538926681796
+     "value": -0.07203222873307735
     },
     {
      "name": "Losene Keita",
-     "p": 0.4357898715041572,
+     "p": 0.4341659931299252,
      "odds": 2.15,
      "book": "Betclic",
-     "value": -0.06305177626606207
+     "value": -0.06654311477066088
     }
    ]
   },
@@ -689,17 +564,17 @@
    "outcomes": [
     {
      "name": "Alexander Volkov",
-     "p": 0.5209418757110884,
+     "p": 0.519643174412387,
      "odds": 1.8,
      "book": "Betclic",
-     "value": -0.062304623720040864
+     "value": -0.06464228605770328
     },
     {
      "name": "Rizvan Kuniev",
-     "p": 0.47905812428891176,
+     "p": 0.480356825587613,
      "odds": 1.9,
      "book": "Betclic",
-     "value": -0.08978956385106773
+     "value": -0.08732203138353534
     }
    ]
   },
@@ -764,14 +639,14 @@
    "outcomes": [
     {
      "name": "Grant Dawson",
-     "p": 0.5182798640763012,
+     "p": 0.5186161809733949,
      "odds": null,
      "book": null,
      "value": null
     },
     {
      "name": "Nurullo Aliev",
-     "p": 0.4817201359236987,
+     "p": 0.48138381902660504,
      "odds": null,
      "book": null,
      "value": null
@@ -789,14 +664,14 @@
    "outcomes": [
     {
      "name": "Iasmin Lucindo",
-     "p": 0.7598971357630576,
+     "p": 0.7595508154167372,
      "odds": null,
      "book": null,
      "value": null
     },
     {
      "name": "Nicolle Caliari",
-     "p": 0.24010286423694246,
+     "p": 0.2404491845832628,
      "odds": null,
      "book": null,
      "value": null
@@ -814,14 +689,14 @@
    "outcomes": [
     {
      "name": "Kody Steele",
-     "p": 0.582766439909297,
+     "p": 0.5820632050288469,
      "odds": null,
      "book": null,
      "value": null
     },
     {
      "name": "Noah Gugnon",
-     "p": 0.41723356009070295,
+     "p": 0.417936794971153,
      "odds": null,
      "book": null,
      "value": null
@@ -839,17 +714,17 @@
    "outcomes": [
     {
      "name": "Lone'er Kavanagh",
-     "p": 0.5006345177664975,
+     "p": 0.5034942447733146,
      "odds": 1.85,
      "book": "Betclic",
-     "value": -0.07382614213197958
+     "value": -0.06853564716936789
     },
     {
      "name": "Ramazonbek Temirov",
-     "p": 0.4993654822335025,
+     "p": 0.4965057552266855,
      "odds": 1.89,
      "book": "Unibet.fr",
-     "value": -0.056199238578680255
+     "value": -0.06160412262156445
     }
    ]
   },
@@ -864,14 +739,14 @@
    "outcomes": [
     {
      "name": "Asaf Chopurov",
-     "p": 0.822743702038299,
+     "p": 0.8212180230618522,
      "odds": null,
      "book": null,
      "value": null
     },
     {
      "name": "Colby Thicknesse",
-     "p": 0.17725629796170086,
+     "p": 0.17878197693814776,
      "odds": null,
      "book": null,
      "value": null
@@ -889,17 +764,17 @@
    "outcomes": [
     {
      "name": "Merab Dvalishvili",
-     "p": 0.4183905437637423,
+     "p": 0.4199376693920561,
      "odds": 2.25,
      "book": "Winamax",
-     "value": -0.05862127653157989
+     "value": -0.05514024386787375
     },
     {
      "name": "Petr Yan",
-     "p": 0.5816094562362577,
+     "p": 0.5800623306079439,
      "odds": 1.65,
      "book": "PMU",
-     "value": -0.0403443972101748
+     "value": -0.04289715449689269
     }
    ]
   },
@@ -914,17 +789,17 @@
    "outcomes": [
     {
      "name": "Alex Volkanovski",
-     "p": 0.5066808661263549,
+     "p": 0.508310404950176,
      "odds": 1.89,
      "book": "PMU",
-     "value": -0.04237316302118932
+     "value": -0.0392933346441674
     },
     {
      "name": "Movsar Evloev",
-     "p": 0.4933191338736452,
+     "p": 0.491689595049824,
      "odds": 1.89,
      "book": "PMU",
-     "value": -0.06762683697881067
+     "value": -0.0707066653558327
     }
    ]
   },
@@ -979,52 +854,27 @@
    ]
   },
   {
-   "id": "f5c4465f64797dcb67aa1b42fd45292e",
-   "key": "tennis_wta_ningbo_open",
-   "sport": "Tennis",
-   "league": "WTA Ningbo Open",
-   "start": "2026-10-23T05:00:00Z",
-   "home": "Sara Bejlek",
-   "away": "Marie Bouzkova",
-   "outcomes": [
-    {
-     "name": "Marie Bouzkova",
-     "p": 0.5958503798947983,
-     "odds": 1.54,
-     "book": "Winamax",
-     "value": -0.0823904149620106
-    },
-    {
-     "name": "Sara Bejlek",
-     "p": 0.4041496201052016,
-     "odds": 2.3,
-     "book": "Winamax",
-     "value": -0.07045587375803641
-    }
-   ]
-  },
-  {
    "id": "f34a0b19a0651c9e3720cf57770d105d",
    "key": "tennis_wta_ningbo_open",
    "sport": "Tennis",
    "league": "WTA Ningbo Open",
-   "start": "2026-10-23T06:30:00Z",
+   "start": "2026-10-23T07:10:35Z",
    "home": "Leylah Fernandez",
    "away": "Ekaterina Alexandrova",
    "outcomes": [
     {
      "name": "Ekaterina Alexandrova",
-     "p": 0.5696573305451027,
-     "odds": 1.66,
+     "p": 0.7629275071956657,
+     "odds": 1.31,
      "book": "Winamax",
-     "value": -0.054368831295129594
+     "value": -0.0005649655736779113
     },
     {
      "name": "Leylah Fernandez",
-     "p": 0.4303426694548973,
-     "odds": 2.1,
-     "book": "Winamax",
-     "value": -0.09628039414471568
+     "p": 0.23707249280433434,
+     "odds": 3.2,
+     "book": "PMU",
+     "value": -0.24136802302613003
     }
    ]
   },
@@ -1033,23 +883,23 @@
    "key": "tennis_wta_ningbo_open",
    "sport": "Tennis",
    "league": "WTA Ningbo Open",
-   "start": "2026-10-23T08:00:00Z",
+   "start": "2026-10-23T08:30:00Z",
    "home": "Iva Jović",
    "away": "Diana Shnaider",
    "outcomes": [
     {
      "name": "Diana Shnaider",
-     "p": 0.45566744715818597,
-     "odds": 1.96,
+     "p": 0.45514020228358587,
+     "odds": 2.05,
      "book": "Winamax",
-     "value": -0.10689180356995553
+     "value": -0.06696258531864907
     },
     {
      "name": "Iva Jović",
-     "p": 0.544332552841814,
-     "odds": 1.76,
+     "p": 0.544859797716414,
+     "odds": 1.7,
      "book": "Winamax",
-     "value": -0.04197470699840733
+     "value": -0.07373834388209621
     }
    ]
   },
@@ -1064,17 +914,17 @@
    "outcomes": [
     {
      "name": "Elena Rybakina",
-     "p": 0.916134088550306,
+     "p": 0.9174580332906461,
      "odds": 1.04,
      "book": "Winamax",
-     "value": -0.04722054790768171
+     "value": -0.045843645377728004
     },
     {
      "name": "Katarzyna Kawa",
-     "p": 0.08386591144969396,
+     "p": 0.08254196670935393,
      "odds": 8.5,
      "book": "Winamax",
-     "value": -0.2871397526776013
+     "value": -0.2983932829704916
     }
    ]
   }
