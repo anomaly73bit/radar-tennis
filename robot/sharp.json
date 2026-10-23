@@ -1,105 +1,30 @@
 {
  "month": "2026-10",
- "remaining": 408,
- "time": "2026-10-23T18:03+00:00",
+ "remaining": 402,
+ "time": "2026-10-23T21:33+00:00",
  "events": [
-  {
-   "id": "e3e99c62895e06e97c5623e7660086e1",
-   "key": "basketball_euroleague",
-   "sport": "Basket",
-   "league": "Basketball Euroleague",
-   "start": "2026-10-23T17:00:00Z",
-   "home": "Žalgiris",
-   "away": "ASVEL Lyon Villeurbanne",
-   "outcomes": [
-    {
-     "name": "ASVEL Lyon Villeurbanne",
-     "p": 0.06682282348746135,
-     "odds": 12.5,
-     "book": "Winamax",
-     "value": -0.16471470640673314
-    },
-    {
-     "name": "Žalgiris",
-     "p": 0.9331771765125386,
-     "odds": 1.01,
-     "book": "Unibet.fr",
-     "value": -0.05749105172233604
-    }
-   ]
-  },
-  {
-   "id": "8b54f88a9c92ed114b4d0b5ccdd059fd",
-   "key": "basketball_euroleague",
-   "sport": "Basket",
-   "league": "Basketball Euroleague",
-   "start": "2026-10-23T18:15:00Z",
-   "home": "Olympiacos",
-   "away": "Fenerbahce SK",
-   "outcomes": [
-    {
-     "name": "Fenerbahce SK",
-     "p": 0.46244453302683497,
-     "odds": 1.96,
-     "book": "Winamax",
-     "value": -0.09360871526740344
-    },
-    {
-     "name": "Olympiacos",
-     "p": 0.537555466973165,
-     "odds": 1.74,
-     "book": "Winamax",
-     "value": -0.06465348746669286
-    }
-   ]
-  },
-  {
-   "id": "103c45d98f2307d743be114ca3460a5c",
-   "key": "basketball_euroleague",
-   "sport": "Basket",
-   "league": "Basketball Euroleague",
-   "start": "2026-10-23T18:45:00Z",
-   "home": "Paris Basketball",
-   "away": "Valencia Basket",
-   "outcomes": [
-    {
-     "name": "Paris Basketball",
-     "p": 0.3699557063867614,
-     "odds": 2.5,
-     "book": "Winamax",
-     "value": -0.07511073403309654
-    },
-    {
-     "name": "Valencia Basket",
-     "p": 0.6300442936132387,
-     "odds": 1.46,
-     "book": "Winamax",
-     "value": -0.08013533132467154
-    }
-   ]
-  },
   {
    "id": "0cdc865f5b785c0be6bc409117fe38aa",
    "key": "basketball_nba",
    "sport": "Basket",
    "league": "NBA",
-   "start": "2026-10-23T20:10:00Z",
+   "start": "2026-10-23T20:16:00Z",
    "home": "Milwaukee Bucks",
    "away": "Chicago Bulls",
    "outcomes": [
     {
      "name": "Chicago Bulls",
-     "p": 0.47601021967343077,
-     "odds": 1.98,
-     "book": "Betclic",
-     "value": -0.05749976504660714
+     "p": 0.41832562787768085,
+     "odds": 2.28,
+     "book": "PMU",
+     "value": -0.04621756843888769
     },
     {
      "name": "Milwaukee Bucks",
-     "p": 0.5239897803265692,
-     "odds": 1.82,
-     "book": "PMU",
-     "value": -0.04633859980564403
+     "p": 0.5816743721223191,
+     "odds": 1.71,
+     "book": "Betclic",
+     "value": -0.005336823670834323
     }
    ]
   },
@@ -114,17 +39,17 @@
    "outcomes": [
     {
      "name": "Atlanta Hawks",
-     "p": 0.5641331050398273,
+     "p": 0.5637847368696769,
      "odds": 1.68,
-     "book": "Betclic",
-     "value": -0.052256383533090256
+     "book": "Winamax",
+     "value": -0.05284164205894282
     },
     {
      "name": "Charlotte Hornets",
-     "p": 0.43586689496017267,
+     "p": 0.436215263130323,
      "odds": 2.15,
      "book": "Betclic",
-     "value": -0.06288617583562883
+     "value": -0.062137184269805634
     }
    ]
   },
@@ -139,17 +64,17 @@
    "outcomes": [
     {
      "name": "Boston Celtics",
-     "p": 0.553197488627392,
-     "odds": 1.7,
+     "p": 0.5653862378719074,
+     "odds": 1.66,
      "book": "Unibet.fr",
-     "value": -0.059564269333433506
+     "value": -0.061458845132633666
     },
     {
      "name": "New York Knicks",
-     "p": 0.44680251137260796,
-     "odds": 2.12,
+     "p": 0.43461376212809244,
+     "odds": 2.18,
      "book": "Betclic",
-     "value": -0.052778675890071125
+     "value": -0.05254199856075836
     }
    ]
   },
@@ -164,17 +89,17 @@
    "outcomes": [
     {
      "name": "Dallas Mavericks",
-     "p": 0.29906155244239296,
-     "odds": 3.13,
+     "p": 0.3108741681790683,
+     "odds": 3.02,
      "book": "Betclic",
-     "value": -0.06393734085531011
+     "value": -0.06116001209921362
     },
     {
      "name": "Indiana Pacers",
-     "p": 0.700938447557607,
-     "odds": 1.35,
+     "p": 0.6891258318209317,
+     "odds": 1.37,
      "book": "Unibet.fr",
-     "value": -0.0537330957972304
+     "value": -0.05589761040532348
     }
    ]
   },
@@ -189,17 +114,17 @@
    "outcomes": [
     {
      "name": "Minnesota Timberwolves",
-     "p": 0.49052349469246787,
-     "odds": 1.91,
+     "p": 0.47533468871072926,
+     "odds": 1.97,
      "book": "Betclic",
-     "value": -0.06310012513738639
+     "value": -0.0635906632398634
     },
     {
      "name": "Orlando Magic",
-     "p": 0.5094765053075321,
-     "odds": 1.86,
+     "p": 0.5246653112892707,
+     "odds": 1.81,
      "book": "Betclic",
-     "value": -0.05237370012799025
+     "value": -0.050355786566419924
     }
    ]
   },
@@ -214,17 +139,17 @@
    "outcomes": [
     {
      "name": "Toronto Raptors",
-     "p": 0.7444371556022041,
-     "odds": 1.28,
-     "book": "Betclic",
-     "value": -0.047120440829178656
+     "p": 0.742615246124373,
+     "odds": 1.27,
+     "book": "Unibet.fr",
+     "value": -0.05687863742204624
     },
     {
      "name": "Washington Wizards",
-     "p": 0.25556284439779586,
-     "odds": 3.63,
+     "p": 0.2573847538756269,
+     "odds": 3.65,
      "book": "Betclic",
-     "value": -0.07230687483600107
+     "value": -0.0605456483539617
     }
    ]
   },
@@ -239,17 +164,17 @@
    "outcomes": [
     {
      "name": "Detroit Pistons",
-     "p": 0.5352664974619289,
-     "odds": 1.78,
+     "p": 0.532766497461929,
+     "odds": 1.77,
      "book": "Betclic",
-     "value": -0.04722563451776651
+     "value": -0.057003299492385806
     },
     {
      "name": "Miami Heat",
-     "p": 0.46473350253807105,
+     "p": 0.46723350253807105,
      "odds": 2.02,
      "book": "Betclic",
-     "value": -0.06123832487309644
+     "value": -0.05618832487309644
     }
    ]
   },
@@ -264,17 +189,17 @@
    "outcomes": [
     {
      "name": "Houston Rockets",
-     "p": 0.36139998049826927,
+     "p": 0.35897657422326085,
      "odds": 2.55,
      "book": "Betclic",
-     "value": -0.07843004972941348
+     "value": -0.08460973573068487
     },
     {
      "name": "San Antonio Spurs",
-     "p": 0.6386000195017307,
+     "p": 0.6410234257767391,
      "odds": 1.5,
      "book": "Winamax",
-     "value": -0.0420999707474039
+     "value": -0.038464861334891354
     }
    ]
   },
@@ -289,17 +214,17 @@
    "outcomes": [
     {
      "name": "New Orleans Pelicans",
-     "p": 0.4885988698807111,
-     "odds": 1.91,
-     "book": "NetBet",
-     "value": -0.0667761585278418
+     "p": 0.488937706793905,
+     "odds": 1.92,
+     "book": "PMU",
+     "value": -0.06123960295570241
     },
     {
      "name": "Utah Jazz",
-     "p": 0.5114011301192889,
+     "p": 0.511062293206095,
      "odds": 1.88,
      "book": "Betclic",
-     "value": -0.03856587537573697
+     "value": -0.03920288877254152
     }
    ]
   },
@@ -314,17 +239,17 @@
    "outcomes": [
     {
      "name": "Golden State Warriors",
-     "p": 0.6168564702461273,
+     "p": 0.6122525451673527,
      "odds": 1.55,
      "book": "Betclic",
-     "value": -0.043872471118502565
+     "value": -0.051008554990603305
     },
     {
      "name": "Memphis Grizzlies",
-     "p": 0.3831435297538727,
-     "odds": 2.43,
-     "book": "PMU",
-     "value": -0.06896122269808924
+     "p": 0.3877474548326473,
+     "odds": 2.4,
+     "book": "Betclic",
+     "value": -0.06940610840164663
     }
    ]
   },
@@ -339,17 +264,17 @@
    "outcomes": [
     {
      "name": "Los Angeles Clippers",
-     "p": 0.24631293650878455,
+     "p": 0.24535507151617114,
      "odds": 3.83,
      "book": "Betclic",
-     "value": -0.05662145317135514
+     "value": -0.06029007609306447
     },
     {
      "name": "Los Angeles Lakers",
-     "p": 0.7536870634912156,
+     "p": 0.7546449284838289,
      "odds": 1.25,
      "book": "Unibet.fr",
-     "value": -0.05789117063598048
+     "value": -0.056693839395213885
     }
    ]
   },
@@ -364,17 +289,17 @@
    "outcomes": [
     {
      "name": "Portland Trail Blazers",
-     "p": 0.7961461601526163,
-     "odds": 1.2,
+     "p": 0.7887248609328199,
+     "odds": 1.22,
      "book": "Betclic",
-     "value": -0.044624607816860506
+     "value": -0.037755669661959756
     },
     {
      "name": "Sacramento Kings",
-     "p": 0.2038538398473836,
-     "odds": 4.35,
+     "p": 0.21127513906718015,
+     "odds": 4.2,
      "book": "Betclic",
-     "value": -0.1132357966638815
+     "value": -0.11264441591784335
     }
    ]
   },
@@ -389,14 +314,14 @@
    "outcomes": [
     {
      "name": "Archie Sharp",
-     "p": 0.5989974937343359,
+     "p": 0.6361445783132531,
      "odds": null,
      "book": null,
      "value": null
     },
     {
      "name": "Ross Driscoll",
-     "p": 0.40100250626566414,
+     "p": 0.363855421686747,
      "odds": null,
      "book": null,
      "value": null
@@ -414,17 +339,17 @@
    "outcomes": [
     {
      "name": "Chicago Blackhawks",
-     "p": 0.3990621447517999,
+     "p": 0.3985399726986765,
      "odds": 2.22,
      "book": "NetBet",
-     "value": -0.11408203865100408
+     "value": -0.11524126060893802
     },
     {
      "name": "Montréal Canadiens",
-     "p": 0.6009378552482002,
+     "p": 0.6014600273013235,
      "odds": 1.51,
      "book": "NetBet",
-     "value": -0.09258383857521768
+     "value": -0.09179535877500145
     }
    ]
   },
@@ -439,64 +364,39 @@
    "outcomes": [
     {
      "name": "Colorado Avalanche",
-     "p": 0.5337885355530835,
-     "odds": 1.68,
+     "p": 0.5329966157317197,
+     "odds": 1.7,
      "book": "NetBet",
-     "value": -0.10323526027081975
+     "value": -0.09390575325607642
     },
     {
      "name": "Tampa Bay Lightning",
-     "p": 0.4662114644469166,
-     "odds": 1.93,
+     "p": 0.4670033842682802,
+     "odds": 1.91,
      "book": "NetBet",
-     "value": -0.10021187361745099
+     "value": -0.10802353604758486
     }
    ]
   },
   {
-   "id": "45a1d00aced27b917a1f982482477b41",
-   "key": "mma_mixed_martial_arts",
-   "sport": "MMA",
-   "league": "MMA",
-   "start": "2026-10-24T14:00:00Z",
-   "home": "Aaron Pico",
-   "away": "Losene Keita",
+   "id": "6f808f8ba28d3f5b26edeb74f752549f",
+   "key": "icehockey_nhl",
+   "sport": "Hockey",
+   "league": "NHL",
+   "start": "2026-10-24T17:00:00Z",
+   "home": "Philadelphia Flyers",
+   "away": "Anaheim Ducks",
    "outcomes": [
     {
-     "name": "Aaron Pico",
-     "p": 0.5780842524778954,
-     "odds": 1.73,
-     "book": "PMU",
-     "value": 8.575678675915022e-05
-    },
-    {
-     "name": "Losene Keita",
-     "p": 0.4219157475221047,
-     "odds": 2.2,
-     "book": "Betclic",
-     "value": -0.07178535545136955
-    }
-   ]
-  },
-  {
-   "id": "78d6472a61824019c0d8f1a535e3d475",
-   "key": "mma_mixed_martial_arts",
-   "sport": "MMA",
-   "league": "MMA",
-   "start": "2026-10-24T14:00:00Z",
-   "home": "Nikita Krylov",
-   "away": "Abdulrakhman Yakhyaev",
-   "outcomes": [
-    {
-     "name": "Abdulrakhman Yakhyaev",
-     "p": 0.8189518051922464,
+     "name": "Anaheim Ducks",
+     "p": 0.4648421239094814,
      "odds": null,
      "book": null,
      "value": null
     },
     {
-     "name": "Nikita Krylov",
-     "p": 0.1810481948077536,
+     "name": "Philadelphia Flyers",
+     "p": 0.5351578760905186,
      "odds": null,
      "book": null,
      "value": null
@@ -504,24 +404,24 @@
    ]
   },
   {
-   "id": "eaedec5d7a75afc377184cc3b40f5cbd",
-   "key": "mma_mixed_martial_arts",
-   "sport": "MMA",
-   "league": "MMA",
-   "start": "2026-10-24T14:00:00Z",
-   "home": "Abubakar Vagaev",
-   "away": "Jacob Malkoun",
+   "id": "b2c782b53aa0561575bd82258e047dcd",
+   "key": "icehockey_nhl",
+   "sport": "Hockey",
+   "league": "NHL",
+   "start": "2026-10-24T19:30:00Z",
+   "home": "New Jersey Devils",
+   "away": "Los Angeles Kings",
    "outcomes": [
     {
-     "name": "Abubakar Vagaev",
-     "p": 0.5864329268292683,
+     "name": "Los Angeles Kings",
+     "p": 0.3981999025424943,
      "odds": null,
      "book": null,
      "value": null
     },
     {
-     "name": "Jacob Malkoun",
-     "p": 0.4135670731707317,
+     "name": "New Jersey Devils",
+     "p": 0.6018000974575057,
      "odds": null,
      "book": null,
      "value": null
@@ -529,24 +429,24 @@
    ]
   },
   {
-   "id": "4ca80986802a53598e9b7a0aaebad69e",
-   "key": "mma_mixed_martial_arts",
-   "sport": "MMA",
-   "league": "MMA",
-   "start": "2026-10-24T14:00:00Z",
-   "home": "Abusupyian Magomedov",
-   "away": "Cam Rowston",
+   "id": "fbdbed1c7dfbc3b1837fa581ea66b703",
+   "key": "icehockey_nhl",
+   "sport": "Hockey",
+   "league": "NHL",
+   "start": "2026-10-24T23:10:00Z",
+   "home": "Boston Bruins",
+   "away": "San Jose Sharks",
    "outcomes": [
     {
-     "name": "Abusupyian Magomedov",
-     "p": 0.528658884935989,
+     "name": "Boston Bruins",
+     "p": 0.6339712918660287,
      "odds": null,
      "book": null,
      "value": null
     },
     {
-     "name": "Cam Rowston",
-     "p": 0.47134111506401105,
+     "name": "San Jose Sharks",
+     "p": 0.3660287081339713,
      "odds": null,
      "book": null,
      "value": null
@@ -554,49 +454,24 @@
    ]
   },
   {
-   "id": "48146e11c4874fe557649e1533c489a3",
-   "key": "mma_mixed_martial_arts",
-   "sport": "MMA",
-   "league": "MMA",
-   "start": "2026-10-24T14:00:00Z",
-   "home": "Alexander Volkov",
-   "away": "Rizvan Kuniev",
+   "id": "0b8a03e43524a57bae9c25a6c73c9024",
+   "key": "icehockey_nhl",
+   "sport": "Hockey",
+   "league": "NHL",
+   "start": "2026-10-24T23:10:00Z",
+   "home": "Washington Capitals",
+   "away": "Buffalo Sabres",
    "outcomes": [
     {
-     "name": "Alexander Volkov",
-     "p": 0.545356332693171,
-     "odds": 1.82,
-     "book": "PMU",
-     "value": -0.007451474498428756
-    },
-    {
-     "name": "Rizvan Kuniev",
-     "p": 0.45464366730682904,
-     "odds": 2.0,
-     "book": "PMU",
-     "value": -0.09071266538634193
-    }
-   ]
-  },
-  {
-   "id": "d170133c67f017be45b7b81eba2a4dae",
-   "key": "mma_mixed_martial_arts",
-   "sport": "MMA",
-   "league": "MMA",
-   "start": "2026-10-24T14:00:00Z",
-   "home": "Azamat Murzakanov",
-   "away": "Dominick Reyes",
-   "outcomes": [
-    {
-     "name": "Azamat Murzakanov",
-     "p": 0.6516391006700322,
+     "name": "Buffalo Sabres",
+     "p": 0.4666666666666667,
      "odds": null,
      "book": null,
      "value": null
     },
     {
-     "name": "Dominick Reyes",
-     "p": 0.34836089932996783,
+     "name": "Washington Capitals",
+     "p": 0.5333333333333333,
      "odds": null,
      "book": null,
      "value": null
@@ -604,24 +479,24 @@
    ]
   },
   {
-   "id": "6bbd43bf7a7860e8dd2bd8e7b8a84686",
-   "key": "mma_mixed_martial_arts",
-   "sport": "MMA",
-   "league": "MMA",
-   "start": "2026-10-24T14:00:00Z",
-   "home": "Bolaji Oki",
-   "away": "Daniel Santos",
+   "id": "7973c2a6112dfdfc1e38edb3fa149416",
+   "key": "icehockey_nhl",
+   "sport": "Hockey",
+   "league": "NHL",
+   "start": "2026-10-24T23:10:00Z",
+   "home": "St Louis Blues",
+   "away": "Carolina Hurricanes",
    "outcomes": [
     {
-     "name": "Bolaji Oki",
-     "p": 0.4865488791825705,
+     "name": "Carolina Hurricanes",
+     "p": 0.5789473684210525,
      "odds": null,
      "book": null,
      "value": null
     },
     {
-     "name": "Daniel Santos",
-     "p": 0.5134511208174294,
+     "name": "St Louis Blues",
+     "p": 0.42105263157894735,
      "odds": null,
      "book": null,
      "value": null
@@ -629,24 +504,24 @@
    ]
   },
   {
-   "id": "b29313ed77b206f9319c46ed143d46d1",
-   "key": "mma_mixed_martial_arts",
-   "sport": "MMA",
-   "league": "MMA",
-   "start": "2026-10-24T14:00:00Z",
-   "home": "Grant Dawson",
-   "away": "Nurullo Aliev",
+   "id": "89da13e86e9e40fd4132bb577ca9a665",
+   "key": "icehockey_nhl",
+   "sport": "Hockey",
+   "league": "NHL",
+   "start": "2026-10-24T23:10:00Z",
+   "home": "Columbus Blue Jackets",
+   "away": "Vegas Golden Knights",
    "outcomes": [
     {
-     "name": "Grant Dawson",
-     "p": 0.515033912870239,
+     "name": "Columbus Blue Jackets",
+     "p": 0.44783715012722647,
      "odds": null,
      "book": null,
      "value": null
     },
     {
-     "name": "Nurullo Aliev",
-     "p": 0.48496608712976097,
+     "name": "Vegas Golden Knights",
+     "p": 0.5521628498727736,
      "odds": null,
      "book": null,
      "value": null
@@ -654,24 +529,24 @@
    ]
   },
   {
-   "id": "785ce96326232237f62c6503d73e1b32",
-   "key": "mma_mixed_martial_arts",
-   "sport": "MMA",
-   "league": "MMA",
-   "start": "2026-10-24T14:00:00Z",
-   "home": "Kody Steele",
-   "away": "Noah Gugnon",
+   "id": "bd017af43e74a8d506cdcec368a4c2c0",
+   "key": "icehockey_nhl",
+   "sport": "Hockey",
+   "league": "NHL",
+   "start": "2026-10-24T23:10:00Z",
+   "home": "Edmonton Oilers",
+   "away": "Toronto Maple Leafs",
    "outcomes": [
     {
-     "name": "Kody Steele",
-     "p": 0.5801537995201547,
+     "name": "Edmonton Oilers",
+     "p": 0.6204379562043796,
      "odds": null,
      "book": null,
      "value": null
     },
     {
-     "name": "Noah Gugnon",
-     "p": 0.4198462004798454,
+     "name": "Toronto Maple Leafs",
+     "p": 0.37956204379562053,
      "odds": null,
      "book": null,
      "value": null
@@ -679,27 +554,102 @@
    ]
   },
   {
-   "id": "3d66abf1b70ac44a10b9a31964c4f4af",
-   "key": "mma_mixed_martial_arts",
-   "sport": "MMA",
-   "league": "MMA",
-   "start": "2026-10-24T14:00:00Z",
-   "home": "Lone'er Kavanagh",
-   "away": "Ramazonbek Temirov",
+   "id": "8e704270ddeb2ccdd00196b06cdb3bf6",
+   "key": "icehockey_nhl",
+   "sport": "Hockey",
+   "league": "NHL",
+   "start": "2026-10-24T23:10:00Z",
+   "home": "Pittsburgh Penguins",
+   "away": "Nashville Predators",
    "outcomes": [
     {
-     "name": "Lone'er Kavanagh",
-     "p": 0.49803265210241954,
-     "odds": 1.87,
-     "book": "PMU",
-     "value": -0.06867894056847546
+     "name": "Nashville Predators",
+     "p": 0.43908629441624364,
+     "odds": null,
+     "book": null,
+     "value": null
     },
     {
-     "name": "Ramazonbek Temirov",
-     "p": 0.5019673478975805,
-     "odds": 1.93,
-     "book": "PMU",
-     "value": -0.031203018557669715
+     "name": "Pittsburgh Penguins",
+     "p": 0.5609137055837563,
+     "odds": null,
+     "book": null,
+     "value": null
+    }
+   ]
+  },
+  {
+   "id": "ea9c3f2278e277cc562857e11fe0072f",
+   "key": "icehockey_nhl",
+   "sport": "Hockey",
+   "league": "NHL",
+   "start": "2026-10-24T23:10:00Z",
+   "home": "Ottawa Senators",
+   "away": "New York Rangers",
+   "outcomes": [
+    {
+     "name": "New York Rangers",
+     "p": 0.46410256410256406,
+     "odds": null,
+     "book": null,
+     "value": null
+    },
+    {
+     "name": "Ottawa Senators",
+     "p": 0.5358974358974359,
+     "odds": null,
+     "book": null,
+     "value": null
+    }
+   ]
+  },
+  {
+   "id": "40bdb8bb226b82f2cfb6d4518d6fdfbd",
+   "key": "icehockey_nhl",
+   "sport": "Hockey",
+   "league": "NHL",
+   "start": "2026-10-25T02:10:00Z",
+   "home": "Calgary Flames",
+   "away": "Detroit Red Wings",
+   "outcomes": [
+    {
+     "name": "Calgary Flames",
+     "p": 0.42211055276381915,
+     "odds": null,
+     "book": null,
+     "value": null
+    },
+    {
+     "name": "Detroit Red Wings",
+     "p": 0.5778894472361809,
+     "odds": null,
+     "book": null,
+     "value": null
+    }
+   ]
+  },
+  {
+   "id": "fa693c68730d8d6347e71ff2f92ba2d8",
+   "key": "icehockey_nhl",
+   "sport": "Hockey",
+   "league": "NHL",
+   "start": "2026-10-25T02:10:00Z",
+   "home": "Seattle Kraken",
+   "away": "Minnesota Wild",
+   "outcomes": [
+    {
+     "name": "Minnesota Wild",
+     "p": 0.5839598997493733,
+     "odds": null,
+     "book": null,
+     "value": null
+    },
+    {
+     "name": "Seattle Kraken",
+     "p": 0.4160401002506265,
+     "odds": null,
+     "book": null,
+     "value": null
     }
    ]
   },
@@ -714,14 +664,89 @@
    "outcomes": [
     {
      "name": "Iasmin Lucindo",
-     "p": 0.7798226012256003,
+     "p": 0.7838527487527045,
      "odds": null,
      "book": null,
      "value": null
     },
     {
      "name": "Nicolle Caliari",
-     "p": 0.2201773987743996,
+     "p": 0.21614725124729553,
+     "odds": null,
+     "book": null,
+     "value": null
+    }
+   ]
+  },
+  {
+   "id": "785ce96326232237f62c6503d73e1b32",
+   "key": "mma_mixed_martial_arts",
+   "sport": "MMA",
+   "league": "MMA",
+   "start": "2026-10-24T14:30:00Z",
+   "home": "Kody Steele",
+   "away": "Noah Gugnon",
+   "outcomes": [
+    {
+     "name": "Kody Steele",
+     "p": 0.5803665942255785,
+     "odds": null,
+     "book": null,
+     "value": null
+    },
+    {
+     "name": "Noah Gugnon",
+     "p": 0.41963340577442154,
+     "odds": null,
+     "book": null,
+     "value": null
+    }
+   ]
+  },
+  {
+   "id": "6bbd43bf7a7860e8dd2bd8e7b8a84686",
+   "key": "mma_mixed_martial_arts",
+   "sport": "MMA",
+   "league": "MMA",
+   "start": "2026-10-24T14:55:00Z",
+   "home": "Bolaji Oki",
+   "away": "Daniel Santos",
+   "outcomes": [
+    {
+     "name": "Bolaji Oki",
+     "p": 0.48335207211472075,
+     "odds": null,
+     "book": null,
+     "value": null
+    },
+    {
+     "name": "Daniel Santos",
+     "p": 0.5166479278852792,
+     "odds": null,
+     "book": null,
+     "value": null
+    }
+   ]
+  },
+  {
+   "id": "eaedec5d7a75afc377184cc3b40f5cbd",
+   "key": "mma_mixed_martial_arts",
+   "sport": "MMA",
+   "league": "MMA",
+   "start": "2026-10-24T15:20:00Z",
+   "home": "Abubakar Vagaev",
+   "away": "Jacob Malkoun",
+   "outcomes": [
+    {
+     "name": "Abubakar Vagaev",
+     "p": 0.5871691423681153,
+     "odds": null,
+     "book": null,
+     "value": null
+    },
+    {
+     "name": "Jacob Malkoun",
+     "p": 0.4128308576318846,
      "odds": null,
      "book": null,
      "value": null
@@ -754,6 +779,181 @@
    ]
   },
   {
+   "id": "b29313ed77b206f9319c46ed143d46d1",
+   "key": "mma_mixed_martial_arts",
+   "sport": "MMA",
+   "league": "MMA",
+   "start": "2026-10-24T16:15:00Z",
+   "home": "Grant Dawson",
+   "away": "Nurullo Aliev",
+   "outcomes": [
+    {
+     "name": "Grant Dawson",
+     "p": 0.5102455281589293,
+     "odds": null,
+     "book": null,
+     "value": null
+    },
+    {
+     "name": "Nurullo Aliev",
+     "p": 0.4897544718410706,
+     "odds": null,
+     "book": null,
+     "value": null
+    }
+   ]
+  },
+  {
+   "id": "4ca80986802a53598e9b7a0aaebad69e",
+   "key": "mma_mixed_martial_arts",
+   "sport": "MMA",
+   "league": "MMA",
+   "start": "2026-10-24T16:45:00Z",
+   "home": "Abusupyian Magomedov",
+   "away": "Cam Rowston",
+   "outcomes": [
+    {
+     "name": "Abusupyian Magomedov",
+     "p": 0.5178437766452528,
+     "odds": null,
+     "book": null,
+     "value": null
+    },
+    {
+     "name": "Cam Rowston",
+     "p": 0.48215622335474717,
+     "odds": null,
+     "book": null,
+     "value": null
+    }
+   ]
+  },
+  {
+   "id": "78d6472a61824019c0d8f1a535e3d475",
+   "key": "mma_mixed_martial_arts",
+   "sport": "MMA",
+   "league": "MMA",
+   "start": "2026-10-24T17:15:00Z",
+   "home": "Nikita Krylov",
+   "away": "Abdulrakhman Yakhyaev",
+   "outcomes": [
+    {
+     "name": "Abdulrakhman Yakhyaev",
+     "p": 0.8189518051922464,
+     "odds": null,
+     "book": null,
+     "value": null
+    },
+    {
+     "name": "Nikita Krylov",
+     "p": 0.1810481948077536,
+     "odds": null,
+     "book": null,
+     "value": null
+    }
+   ]
+  },
+  {
+   "id": "d170133c67f017be45b7b81eba2a4dae",
+   "key": "mma_mixed_martial_arts",
+   "sport": "MMA",
+   "league": "MMA",
+   "start": "2026-10-24T17:40:00Z",
+   "home": "Azamat Murzakanov",
+   "away": "Dominick Reyes",
+   "outcomes": [
+    {
+     "name": "Azamat Murzakanov",
+     "p": 0.6420423548083123,
+     "odds": null,
+     "book": null,
+     "value": null
+    },
+    {
+     "name": "Dominick Reyes",
+     "p": 0.3579576451916877,
+     "odds": null,
+     "book": null,
+     "value": null
+    }
+   ]
+  },
+  {
+   "id": "45a1d00aced27b917a1f982482477b41",
+   "key": "mma_mixed_martial_arts",
+   "sport": "MMA",
+   "league": "MMA",
+   "start": "2026-10-24T18:20:00Z",
+   "home": "Aaron Pico",
+   "away": "Losene Keita",
+   "outcomes": [
+    {
+     "name": "Aaron Pico",
+     "p": 0.573415397095265,
+     "odds": 1.64,
+     "book": "PMU",
+     "value": -0.059598748763765474
+    },
+    {
+     "name": "Losene Keita",
+     "p": 0.4265846029047349,
+     "odds": 2.25,
+     "book": "PMU",
+     "value": -0.04018464346434647
+    }
+   ]
+  },
+  {
+   "id": "48146e11c4874fe557649e1533c489a3",
+   "key": "mma_mixed_martial_arts",
+   "sport": "MMA",
+   "league": "MMA",
+   "start": "2026-10-24T18:50:00Z",
+   "home": "Alexander Volkov",
+   "away": "Rizvan Kuniev",
+   "outcomes": [
+    {
+     "name": "Alexander Volkov",
+     "p": 0.5302262412223719,
+     "odds": 1.82,
+     "book": "PMU",
+     "value": -0.03498824097528308
+    },
+    {
+     "name": "Rizvan Kuniev",
+     "p": 0.469773758777628,
+     "odds": 2.0,
+     "book": "Betclic",
+     "value": -0.06045248244474399
+    }
+   ]
+  },
+  {
+   "id": "3d66abf1b70ac44a10b9a31964c4f4af",
+   "key": "mma_mixed_martial_arts",
+   "sport": "MMA",
+   "league": "MMA",
+   "start": "2026-10-24T19:20:00Z",
+   "home": "Lone'er Kavanagh",
+   "away": "Ramazonbek Temirov",
+   "outcomes": [
+    {
+     "name": "Lone'er Kavanagh",
+     "p": 0.5031328320802004,
+     "odds": 1.87,
+     "book": "PMU",
+     "value": -0.059141604010025106
+    },
+    {
+     "name": "Ramazonbek Temirov",
+     "p": 0.4968671679197995,
+     "odds": 1.93,
+     "book": "PMU",
+     "value": -0.04104636591478694
+    }
+   ]
+  },
+  {
    "id": "434aefea124f696fec6cba7d9ec6f582",
    "key": "mma_mixed_martial_arts",
    "sport": "MMA",
@@ -764,17 +964,17 @@
    "outcomes": [
     {
      "name": "Merab Dvalishvili",
-     "p": 0.4358119235040824,
+     "p": 0.43307580076027913,
      "odds": 2.25,
      "book": "PMU",
-     "value": -0.01942317211581468
+     "value": -0.025579448289371975
     },
     {
      "name": "Petr Yan",
-     "p": 0.5641880764959176,
+     "p": 0.5669241992397208,
      "odds": 1.65,
      "book": "PMU",
-     "value": -0.06908967378173603
+     "value": -0.06457507125446071
     }
    ]
   },
@@ -789,17 +989,242 @@
    "outcomes": [
     {
      "name": "Alex Volkanovski",
-     "p": 0.5025139374825931,
+     "p": 0.5037688442211056,
      "odds": 1.89,
      "book": "PMU",
-     "value": -0.05024865815789914
+     "value": -0.047876884422110466
     },
     {
      "name": "Movsar Evloev",
-     "p": 0.49748606251740696,
+     "p": 0.4962311557788945,
      "odds": 1.89,
      "book": "PMU",
-     "value": -0.05975134184210085
+     "value": -0.06212311557788952
+    }
+   ]
+  },
+  {
+   "id": "0c220210154452bc3a64e0311c292811",
+   "key": "mma_mixed_martial_arts",
+   "sport": "MMA",
+   "league": "MMA",
+   "start": "2026-11-01T00:00:00Z",
+   "home": "Ode Osbourne",
+   "away": "Cody Durden",
+   "outcomes": [
+    {
+     "name": "Cody Durden",
+     "p": 0.46253229974160204,
+     "odds": null,
+     "book": null,
+     "value": null
+    },
+    {
+     "name": "Ode Osbourne",
+     "p": 0.537467700258398,
+     "odds": null,
+     "book": null,
+     "value": null
+    }
+   ]
+  },
+  {
+   "id": "cb8bbfa745f8248ce8453d9f561e86d7",
+   "key": "mma_mixed_martial_arts",
+   "sport": "MMA",
+   "league": "MMA",
+   "start": "2026-11-01T00:00:00Z",
+   "home": "Francis Marshall",
+   "away": "Dakota Hope",
+   "outcomes": [
+    {
+     "name": "Dakota Hope",
+     "p": 0.3082039911308203,
+     "odds": null,
+     "book": null,
+     "value": null
+    },
+    {
+     "name": "Francis Marshall",
+     "p": 0.6917960088691796,
+     "odds": null,
+     "book": null,
+     "value": null
+    }
+   ]
+  },
+  {
+   "id": "df9dc29c8fb008aa275d85007b3bb2e7",
+   "key": "mma_mixed_martial_arts",
+   "sport": "MMA",
+   "league": "MMA",
+   "start": "2026-11-01T00:00:00Z",
+   "home": "Jean-Paul Lebosnoyani",
+   "away": "Farman Hasanov",
+   "outcomes": [
+    {
+     "name": "Farman Hasanov",
+     "p": 0.3182844243792325,
+     "odds": 2.9,
+     "book": "Betclic",
+     "value": -0.07697516930022585
+    },
+    {
+     "name": "Jean-Paul Lebosnoyani",
+     "p": 0.6817155756207675,
+     "odds": 1.36,
+     "book": "Betclic",
+     "value": -0.07286681715575616
+    }
+   ]
+  },
+  {
+   "id": "71f805453406ee20a60006831d2e6629",
+   "key": "mma_mixed_martial_arts",
+   "sport": "MMA",
+   "league": "MMA",
+   "start": "2026-11-01T00:00:00Z",
+   "home": "Julian Erosa",
+   "away": "Jeongyoung Lee",
+   "outcomes": [
+    {
+     "name": "Jeongyoung Lee",
+     "p": 0.6501182033096927,
+     "odds": null,
+     "book": null,
+     "value": null
+    },
+    {
+     "name": "Julian Erosa",
+     "p": 0.3498817966903074,
+     "odds": null,
+     "book": null,
+     "value": null
+    }
+   ]
+  },
+  {
+   "id": "db6e188beac0b1d61e66fcf162c7307c",
+   "key": "mma_mixed_martial_arts",
+   "sport": "MMA",
+   "league": "MMA",
+   "start": "2026-11-01T00:00:00Z",
+   "home": "Nick Klein",
+   "away": "Joseph Kropschot",
+   "outcomes": [
+    {
+     "name": "Joseph Kropschot",
+     "p": 0.728952772073922,
+     "odds": null,
+     "book": null,
+     "value": null
+    },
+    {
+     "name": "Nick Klein",
+     "p": 0.27104722792607805,
+     "odds": null,
+     "book": null,
+     "value": null
+    }
+   ]
+  },
+  {
+   "id": "2dce4e1e4c2249c65b10dab7c8bdad6a",
+   "key": "mma_mixed_martial_arts",
+   "sport": "MMA",
+   "league": "MMA",
+   "start": "2026-11-01T00:00:00Z",
+   "home": "Yana Santos",
+   "away": "Luana Santos",
+   "outcomes": [
+    {
+     "name": "Luana Santos",
+     "p": 0.6635730858468678,
+     "odds": 1.43,
+     "book": "Betclic",
+     "value": -0.05109048723897913
+    },
+    {
+     "name": "Yana Santos",
+     "p": 0.3364269141531323,
+     "odds": 2.6,
+     "book": "Betclic",
+     "value": -0.125290023201856
+    }
+   ]
+  },
+  {
+   "id": "80ba973c37247bf87a44c12d859c05a1",
+   "key": "mma_mixed_martial_arts",
+   "sport": "MMA",
+   "league": "MMA",
+   "start": "2026-11-01T00:00:00Z",
+   "home": "Talita Alencar",
+   "away": "Piera Rodriguez",
+   "outcomes": [
+    {
+     "name": "Piera Rodriguez",
+     "p": 0.6917960088691796,
+     "odds": null,
+     "book": null,
+     "value": null
+    },
+    {
+     "name": "Talita Alencar",
+     "p": 0.3082039911308203,
+     "odds": null,
+     "book": null,
+     "value": null
+    }
+   ]
+  },
+  {
+   "id": "75a36e7aaccd373717f328b7c297f099",
+   "key": "mma_mixed_martial_arts",
+   "sport": "MMA",
+   "league": "MMA",
+   "start": "2026-11-01T00:00:00Z",
+   "home": "Renato Moicano",
+   "away": "Tom Nolan",
+   "outcomes": [
+    {
+     "name": "Renato Moicano",
+     "p": 0.4599483204134367,
+     "odds": 1.94,
+     "book": "Winamax",
+     "value": -0.10770025839793285
+    },
+    {
+     "name": "Tom Nolan",
+     "p": 0.5400516795865633,
+     "odds": 1.8,
+     "book": "Betclic",
+     "value": -0.027906976744186074
+    }
+   ]
+  },
+  {
+   "id": "f479a7e8b8fdd2e2ba2cfb9022f6aea2",
+   "key": "mma_mixed_martial_arts",
+   "sport": "MMA",
+   "league": "MMA",
+   "start": "2026-11-01T00:00:00Z",
+   "home": "Rodrigo Sezinando",
+   "away": "Theodor Berggren",
+   "outcomes": [
+    {
+     "name": "Rodrigo Sezinando",
+     "p": 0.595,
+     "odds": null,
+     "book": null,
+     "value": null
+    },
+    {
+     "name": "Theodor Berggren",
+     "p": 0.405,
+     "odds": null,
+     "book": null,
+     "value": null
     }
    ]
   },
@@ -814,17 +1239,17 @@
    "outcomes": [
     {
      "name": "Amanda Nunes",
-     "p": 0.3632499179583457,
+     "p": 0.3627395856044002,
      "odds": 2.53,
      "book": "Betclic",
-     "value": -0.08097770756538536
+     "value": -0.08226884842086746
     },
     {
      "name": "Kayla Harrison",
-     "p": 0.6367500820416543,
+     "p": 0.6372604143955999,
      "odds": 1.47,
      "book": "Winamax",
-     "value": -0.06397737939876824
+     "value": -0.06322719083846817
     }
    ]
   },
@@ -858,23 +1283,23 @@
    "key": "tennis_wta_ningbo_open",
    "sport": "Tennis",
    "league": "WTA Ningbo Open",
-   "start": "2026-10-24T06:10:00Z",
+   "start": "2026-10-24T07:00:00Z",
    "home": "Leylah Fernandez",
    "away": "Marie Bouzkova",
    "outcomes": [
     {
      "name": "Leylah Fernandez",
-     "p": 0.49619289340101524,
+     "p": 0.4924299331710097,
      "odds": 1.85,
      "book": "PMU",
-     "value": -0.08204314720812178
+     "value": -0.08900462363363204
     },
     {
      "name": "Marie Bouzkova",
-     "p": 0.5038071065989849,
+     "p": 0.5075700668289904,
      "odds": 1.8,
      "book": "Winamax",
-     "value": -0.0931472081218272
+     "value": -0.08637387970781718
     }
    ]
   },
@@ -889,17 +1314,17 @@
    "outcomes": [
     {
      "name": "Diana Shnaider",
-     "p": 0.36577727955182443,
+     "p": 0.3697306709354902,
      "odds": 2.45,
-     "book": "Unibet.fr",
-     "value": -0.10384566509803006
+     "book": "Winamax",
+     "value": -0.0941598562080489
     },
     {
      "name": "Elena Rybakina",
-     "p": 0.6342227204481755,
+     "p": 0.6302693290645098,
      "odds": 1.47,
      "book": "PMU",
-     "value": -0.06769260094118201
+     "value": -0.07350408627517058
     }
    ]
   }
