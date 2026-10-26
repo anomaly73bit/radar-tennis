@@ -1,8 +1,158 @@
 {
  "month": "2026-10",
- "remaining": 324,
- "time": "2026-10-26T12:04+00:00",
+ "remaining": 316,
+ "time": "2026-10-26T18:46+00:00",
  "events": [
+  {
+   "id": "9231db10cde7c1a3b028b375c597aa43",
+   "key": "basketball_euroleague",
+   "sport": "Basket",
+   "league": "Basketball Euroleague",
+   "start": "2026-10-27T16:00:00Z",
+   "home": "Dubai Basketball",
+   "away": "Paris Basketball",
+   "outcomes": [
+    {
+     "name": "Dubai Basketball",
+     "p": 0.7992727508146485,
+     "odds": 1.16,
+     "book": "PMU",
+     "value": -0.07284360905500775
+    },
+    {
+     "name": "Paris Basketball",
+     "p": 0.20072724918535143,
+     "odds": 4.0,
+     "book": "Winamax",
+     "value": -0.1970910032585943
+    }
+   ]
+  },
+  {
+   "id": "bce9f86448c76b2a6017a2dfab67d339",
+   "key": "basketball_euroleague",
+   "sport": "Basket",
+   "league": "Basketball Euroleague",
+   "start": "2026-10-27T19:00:00Z",
+   "home": "FC Bayern München",
+   "away": "FC Barcelona Bàsquet",
+   "outcomes": [
+    {
+     "name": "FC Barcelona Bàsquet",
+     "p": 0.48440431096681097,
+     "odds": 1.88,
+     "book": "PMU",
+     "value": -0.08931989538239538
+    },
+    {
+     "name": "FC Bayern München",
+     "p": 0.5155956890331891,
+     "odds": 1.76,
+     "book": "Winamax",
+     "value": -0.09255158730158719
+    }
+   ]
+  },
+  {
+   "id": "7c839e4e8ac1a95ff2eaa022e9d819e5",
+   "key": "basketball_euroleague",
+   "sport": "Basket",
+   "league": "Basketball Euroleague",
+   "start": "2026-10-27T19:00:00Z",
+   "home": "KK Crvena zvezda",
+   "away": "Maccabi Tel Aviv",
+   "outcomes": [
+    {
+     "name": "KK Crvena zvezda",
+     "p": 0.6757714444213301,
+     "odds": 1.36,
+     "book": "Winamax",
+     "value": -0.08095083558699101
+    },
+    {
+     "name": "Maccabi Tel Aviv",
+     "p": 0.32422855557867,
+     "odds": 2.7,
+     "book": "PMU",
+     "value": -0.12458289993759097
+    }
+   ]
+  },
+  {
+   "id": "4ab8a72774d607ee751923054f0f3a62",
+   "key": "basketball_euroleague",
+   "sport": "Basket",
+   "league": "Basketball Euroleague",
+   "start": "2026-10-27T19:15:00Z",
+   "home": "Panathinaikos",
+   "away": "Pallacanestro Olimpia Milano",
+   "outcomes": [
+    {
+     "name": "Pallacanestro Olimpia Milano",
+     "p": 0.15516054702696233,
+     "odds": 6.4,
+     "book": "PMU",
+     "value": -0.006972499027441015
+    },
+    {
+     "name": "Panathinaikos",
+     "p": 0.8448394529730376,
+     "odds": 1.08,
+     "book": "Winamax",
+     "value": -0.0875733907891193
+    }
+   ]
+  },
+  {
+   "id": "6c176fc4889c1484ba801c94e59b91db",
+   "key": "basketball_euroleague",
+   "sport": "Basket",
+   "league": "Basketball Euroleague",
+   "start": "2026-10-27T19:30:00Z",
+   "home": "Valencia Basket",
+   "away": "Fenerbahce SK",
+   "outcomes": [
+    {
+     "name": "Fenerbahce SK",
+     "p": 0.4987035359128382,
+     "odds": 1.83,
+     "book": "PMU",
+     "value": -0.087372529279506
+    },
+    {
+     "name": "Valencia Basket",
+     "p": 0.5012964640871617,
+     "odds": 1.76,
+     "book": "Winamax",
+     "value": -0.11771822320659542
+    }
+   ]
+  },
+  {
+   "id": "98200711ce86d7f98029d605016a7891",
+   "key": "basketball_euroleague",
+   "sport": "Basket",
+   "league": "Basketball Euroleague",
+   "start": "2026-10-27T20:00:00Z",
+   "home": "Saski Baskonia",
+   "away": "Real Madrid",
+   "outcomes": [
+    {
+     "name": "Real Madrid",
+     "p": 0.7810082857622299,
+     "odds": 1.18,
+     "book": "Winamax",
+     "value": -0.07841022280056875
+    },
+    {
+     "name": "Saski Baskonia",
+     "p": 0.21899171423777,
+     "odds": 3.7,
+     "book": "Winamax",
+     "value": -0.18973065732025096
+    }
+   ]
+  },
   {
    "id": "3354649681943139cafc0049d42d9c8c",
    "key": "basketball_nba",
@@ -14,17 +164,17 @@
    "outcomes": [
     {
      "name": "Charlotte Hornets",
-     "p": 0.5344958374582807,
-     "odds": 1.74,
-     "book": "Betclic",
-     "value": -0.06997724282259166
+     "p": 0.5771169966758202,
+     "odds": 1.64,
+     "book": "Winamax",
+     "value": -0.05352812545165497
     },
     {
      "name": "Washington Wizards",
-     "p": 0.46550416254171945,
-     "odds": 2.07,
-     "book": "Betclic",
-     "value": -0.036406383538640785
+     "p": 0.42288300332417983,
+     "odds": 2.1,
+     "book": "NetBet",
+     "value": -0.1119456930192223
     }
    ]
   },
@@ -39,17 +189,17 @@
    "outcomes": [
     {
      "name": "Cleveland Cavaliers",
-     "p": 0.5941006645604097,
-     "odds": 1.58,
-     "book": "Betclic",
-     "value": -0.06132094999455273
+     "p": 0.6294879390605164,
+     "odds": 1.5,
+     "book": "Winamax",
+     "value": -0.05576809140922545
     },
     {
      "name": "Minnesota Timberwolves",
-     "p": 0.40589933543959034,
-     "odds": 2.33,
-     "book": "Betclic",
-     "value": -0.0542545484257545
+     "p": 0.37051206093948374,
+     "odds": 2.5,
+     "book": "Unibet.fr",
+     "value": -0.07371984765129058
     }
    ]
   },
@@ -64,17 +214,17 @@
    "outcomes": [
     {
      "name": "Boston Celtics",
-     "p": 0.8484063966240041,
+     "p": 0.8545329578474528,
      "odds": 1.12,
-     "book": "Betclic",
-     "value": -0.049784835781115366
+     "book": "Winamax",
+     "value": -0.042923087210852806
     },
     {
      "name": "Chicago Bulls",
-     "p": 0.151593603375996,
-     "odds": 6.1,
-     "book": "Betclic",
-     "value": -0.07527901940642445
+     "p": 0.14546704215254724,
+     "odds": 5.75,
+     "book": "PMU",
+     "value": -0.16356450762285335
     }
    ]
   },
@@ -89,17 +239,17 @@
    "outcomes": [
     {
      "name": "Dallas Mavericks",
-     "p": 0.26571412348286766,
-     "odds": 3.6,
-     "book": "Betclic",
-     "value": -0.04342915546167636
+     "p": 0.2900745777582803,
+     "odds": 3.15,
+     "book": "PMU",
+     "value": -0.08626508006141698
     },
     {
      "name": "Miami Heat",
-     "p": 0.7342858765171323,
-     "odds": 1.28,
+     "p": 0.7099254222417197,
+     "odds": 1.32,
      "book": "Winamax",
-     "value": -0.060114078058070675
+     "value": -0.06289844264092992
     }
    ]
   },
@@ -114,17 +264,17 @@
    "outcomes": [
     {
      "name": "Indiana Pacers",
-     "p": 0.6173419144055425,
-     "odds": 1.56,
+     "p": 0.6050489657535056,
+     "odds": 1.52,
      "book": "Winamax",
-     "value": -0.03694661352735362
+     "value": -0.08032557205467139
     },
     {
      "name": "Milwaukee Bucks",
-     "p": 0.38265808559445746,
-     "odds": 2.48,
-     "book": "Betclic",
-     "value": -0.05100794772574546
+     "p": 0.39495103424649447,
+     "odds": 2.4,
+     "book": "Winamax",
+     "value": -0.05211751780841334
     }
    ]
   },
@@ -139,17 +289,17 @@
    "outcomes": [
     {
      "name": "Oklahoma City Thunder",
-     "p": 0.7730068701070458,
-     "odds": 1.22,
-     "book": "Betclic",
-     "value": -0.05693161846940409
+     "p": 0.7383754671866656,
+     "odds": 1.29,
+     "book": "Winamax",
+     "value": -0.04749564732920142
     },
     {
      "name": "Phoenix Suns",
-     "p": 0.22699312989295414,
-     "odds": 4.1,
-     "book": "Betclic",
-     "value": -0.06932816743888814
+     "p": 0.2616245328133342,
+     "odds": 3.5,
+     "book": "PMU",
+     "value": -0.0843141351533303
     }
    ]
   },
@@ -164,17 +314,17 @@
    "outcomes": [
     {
      "name": "Atlanta Hawks",
-     "p": 0.3453149968116169,
-     "odds": 2.65,
-     "book": "PMU",
-     "value": -0.08491525844921521
+     "p": 0.3647463352512751,
+     "odds": 2.47,
+     "book": "NetBet",
+     "value": -0.0990765519293505
     },
     {
      "name": "Houston Rockets",
-     "p": 0.6546850031883831,
-     "odds": 1.47,
-     "book": "Betclic",
-     "value": -0.037613045313076854
+     "p": 0.635253664748725,
+     "odds": 1.49,
+     "book": "Winamax",
+     "value": -0.05347203952439972
     }
    ]
   },
@@ -189,17 +339,17 @@
    "outcomes": [
     {
      "name": "Memphis Grizzlies",
-     "p": 0.5012562814070352,
-     "odds": 1.95,
-     "book": "Betclic",
-     "value": -0.022550251256281517
+     "p": 0.48315644562193066,
+     "odds": 1.94,
+     "book": "Winamax",
+     "value": -0.06267649549345455
     },
     {
      "name": "Utah Jazz",
-     "p": 0.4987437185929648,
-     "odds": 1.83,
-     "book": "Betclic",
-     "value": -0.08729899497487437
+     "p": 0.5168435543780694,
+     "odds": 1.78,
+     "book": "Winamax",
+     "value": -0.08001847320703648
     }
    ]
   },
@@ -214,17 +364,17 @@
    "outcomes": [
     {
      "name": "Denver Nuggets",
-     "p": 0.731386211669834,
-     "odds": 1.3,
+     "p": 0.7033656096156097,
+     "odds": 1.35,
      "book": "Winamax",
-     "value": -0.04919792482921581
+     "value": -0.05045642701892683
     },
     {
      "name": "Golden State Warriors",
-     "p": 0.268613788330166,
-     "odds": 3.4,
-     "book": "Betclic",
-     "value": -0.08671311967743556
+     "p": 0.29663439038439043,
+     "odds": 3.1,
+     "book": "PMU",
+     "value": -0.08043338980838965
     }
    ]
   },
@@ -339,17 +489,17 @@
    "outcomes": [
     {
      "name": "Los Angeles Kings",
-     "p": 0.4465722517926409,
+     "p": 0.44752885718193963,
      "odds": 2.0,
      "book": "NetBet",
-     "value": -0.10685549641471825
+     "value": -0.10494228563612074
     },
     {
      "name": "New York Rangers",
-     "p": 0.5534277482073592,
+     "p": 0.5524711428180603,
      "odds": 1.63,
      "book": "NetBet",
-     "value": -0.09791277042200464
+     "value": -0.09947203720656173
     }
    ]
   },
@@ -364,17 +514,17 @@
    "outcomes": [
     {
      "name": "Calgary Flames",
-     "p": 0.4267181620122797,
-     "odds": 2.15,
+     "p": 0.4482575287669152,
+     "odds": 2.02,
      "book": "NetBet",
-     "value": -0.08255595167359875
+     "value": -0.09451979189083126
     },
     {
      "name": "Toronto Maple Leafs",
-     "p": 0.5732818379877204,
-     "odds": 1.55,
+     "p": 0.5517424712330848,
+     "odds": 1.62,
      "book": "NetBet",
-     "value": -0.11141315111903338
+     "value": -0.10617719660240255
     }
    ]
   },
@@ -389,17 +539,17 @@
    "outcomes": [
     {
      "name": "Detroit Red Wings",
-     "p": 0.38776600687668433,
+     "p": 0.3933676588141252,
      "odds": 2.32,
      "book": "NetBet",
-     "value": -0.10038286404609242
+     "value": -0.08738703155122951
     },
     {
      "name": "Edmonton Oilers",
-     "p": 0.6122339931233156,
+     "p": 0.6066323411858748,
      "odds": 1.47,
      "book": "NetBet",
-     "value": -0.10001603010872606
+     "value": -0.10825045845676395
     }
    ]
   },
@@ -414,14 +564,14 @@
    "outcomes": [
     {
      "name": "Lucia Szabová",
-     "p": 0.8227272727272728,
+     "p": 0.8350071736011477,
      "odds": null,
      "book": null,
      "value": null
     },
     {
      "name": "Tainara Lisboa",
-     "p": 0.17727272727272728,
+     "p": 0.1649928263988522,
      "odds": null,
      "book": null,
      "value": null
@@ -440,16 +590,16 @@
     {
      "name": "Cody Durden",
      "p": 0.4930667935903538,
-     "odds": 2.0,
+     "odds": 1.85,
      "book": "Betclic",
-     "value": -0.01386641281929235
+     "value": -0.08782643185784533
     },
     {
      "name": "Ode Osbourne",
      "p": 0.5069332064096462,
-     "odds": 1.73,
+     "odds": 1.85,
      "book": "Betclic",
-     "value": -0.12300555291131199
+     "value": -0.06217356814215447
     }
    ]
   },
@@ -489,17 +639,42 @@
    "outcomes": [
     {
      "name": "Farman Hasanov",
-     "p": 0.2890637995433169,
-     "odds": 2.95,
-     "book": "Winamax",
-     "value": -0.14726179134721507
+     "p": 0.28427286685676684,
+     "odds": 3.25,
+     "book": "Betclic",
+     "value": -0.07611318271550782
     },
     {
      "name": "Jean-Paul Lebosnoyani",
-     "p": 0.7109362004566832,
-     "odds": 1.36,
+     "p": 0.7157271331432331,
+     "odds": 1.29,
      "book": "Betclic",
-     "value": -0.03312676737891085
+     "value": -0.07671199824522923
+    }
+   ]
+  },
+  {
+   "id": "3ff93a8fb39e5f3cb3bc71ed27f6cc06",
+   "key": "mma_mixed_martial_arts",
+   "sport": "MMA",
+   "league": "MMA",
+   "start": "2026-11-01T00:00:00Z",
+   "home": "Randy Brown",
+   "away": "Jacobe Smith",
+   "outcomes": [
+    {
+     "name": "Jacobe Smith",
+     "p": 0.6831460674157303,
+     "odds": 1.39,
+     "book": "Betclic",
+     "value": -0.050426966292135056
+    },
+    {
+     "name": "Randy Brown",
+     "p": 0.31685393258426964,
+     "odds": 2.77,
+     "book": "Betclic",
+     "value": -0.12231460674157313
     }
    ]
   },
@@ -514,14 +689,14 @@
    "outcomes": [
     {
      "name": "Jeongyoung Lee",
-     "p": 0.6176470588235294,
+     "p": 0.6185819070904646,
      "odds": null,
      "book": null,
      "value": null
     },
     {
      "name": "Julian Erosa",
-     "p": 0.3823529411764706,
+     "p": 0.38141809290953554,
      "odds": null,
      "book": null,
      "value": null
@@ -565,16 +740,41 @@
     {
      "name": "Luana Santos",
      "p": 0.6967032967032967,
-     "odds": 1.43,
+     "odds": 1.33,
      "book": "Betclic",
-     "value": -0.003714285714285781
+     "value": -0.07338461538461538
     },
     {
      "name": "Yana Santos",
      "p": 0.3032967032967032,
-     "odds": 2.8,
-     "book": "Winamax",
-     "value": -0.150769230769231
+     "odds": 3.02,
+     "book": "Betclic",
+     "value": -0.08404395604395631
+    }
+   ]
+  },
+  {
+   "id": "bcace46c2ac73a12c347366092a7329e",
+   "key": "mma_mixed_martial_arts",
+   "sport": "MMA",
+   "league": "MMA",
+   "start": "2026-11-01T00:00:00Z",
+   "home": "Zachary Reese",
+   "away": "Mickey Gall",
+   "outcomes": [
+    {
+     "name": "Mickey Gall",
+     "p": 0.2918454935622318,
+     "odds": null,
+     "book": null,
+     "value": null
+    },
+    {
+     "name": "Zachary Reese",
+     "p": 0.7081545064377682,
+     "odds": null,
+     "book": null,
+     "value": null
     }
    ]
   },
@@ -614,17 +814,17 @@
    "outcomes": [
     {
      "name": "Renato Moicano",
-     "p": 0.4948029401154402,
-     "odds": 1.95,
+     "p": 0.5099680128400755,
+     "odds": 1.85,
      "book": "Betclic",
-     "value": -0.03513426677489162
+     "value": -0.056559176245860265
     },
     {
      "name": "Tom Nolan",
-     "p": 0.5051970598845599,
+     "p": 0.4900319871599245,
      "odds": 1.86,
      "book": "Winamax",
-     "value": -0.060333468614718555
+     "value": -0.08854050388254031
     }
    ]
   },
@@ -665,9 +865,9 @@
     {
      "name": "Amanda Nunes",
      "p": 0.3516530051626492,
-     "odds": 2.53,
+     "odds": 2.5,
      "book": "Betclic",
-     "value": -0.11031789693849758
+     "value": -0.12086748709337702
     },
     {
      "name": "Kayla Harrison",
@@ -704,106 +904,6 @@
    ]
   },
   {
-   "id": "4fcca39f1c6a31253c07fe75fbb849c8",
-   "key": "tennis_atp_swiss_indoors",
-   "sport": "Tennis",
-   "league": "ATP Swiss Indoors Basel",
-   "start": "2026-10-26T12:30:00Z",
-   "home": "Valentin Vacherot",
-   "away": "Mariano Navone",
-   "outcomes": [
-    {
-     "name": "Mariano Navone",
-     "p": 0.3615245989275342,
-     "odds": 2.6,
-     "book": "PMU",
-     "value": -0.060036042788411126
-    },
-    {
-     "name": "Valentin Vacherot",
-     "p": 0.6384754010724658,
-     "odds": 1.48,
-     "book": "Betclic",
-     "value": -0.05505640641275067
-    }
-   ]
-  },
-  {
-   "id": "ff981b830d19b181bbd9c6a6a092eb5a",
-   "key": "tennis_atp_swiss_indoors",
-   "sport": "Tennis",
-   "league": "ATP Swiss Indoors Basel",
-   "start": "2026-10-26T12:30:00Z",
-   "home": "Mika Brunold",
-   "away": "Nuno Borges",
-   "outcomes": [
-    {
-     "name": "Mika Brunold",
-     "p": 0.32979210406379733,
-     "odds": 2.7,
-     "book": "Winamax",
-     "value": -0.10956131902774713
-    },
-    {
-     "name": "Nuno Borges",
-     "p": 0.6702078959362027,
-     "odds": 1.43,
-     "book": "Betclic",
-     "value": -0.04160270881123018
-    }
-   ]
-  },
-  {
-   "id": "fc557e2864fbe07964a9d288a81d5009",
-   "key": "tennis_atp_swiss_indoors",
-   "sport": "Tennis",
-   "league": "ATP Swiss Indoors Basel",
-   "start": "2026-10-26T13:40:00Z",
-   "home": "Daniel Altmaier",
-   "away": "Juan Manuel Cerundolo",
-   "outcomes": [
-    {
-     "name": "Daniel Altmaier",
-     "p": 0.4485474715713573,
-     "odds": 2.07,
-     "book": "Betclic",
-     "value": -0.07150673384729045
-    },
-    {
-     "name": "Juan Manuel Cerundolo",
-     "p": 0.5514525284286427,
-     "odds": 1.72,
-     "book": "Winamax",
-     "value": -0.051501651102734636
-    }
-   ]
-  },
-  {
-   "id": "7484e86bb920b4e17ec18fde7f1487a5",
-   "key": "tennis_atp_swiss_indoors",
-   "sport": "Tennis",
-   "league": "ATP Swiss Indoors Basel",
-   "start": "2026-10-26T13:40:00Z",
-   "home": "Holger Rune",
-   "away": "Quentin Halys",
-   "outcomes": [
-    {
-     "name": "Holger Rune",
-     "p": 0.5168605898445271,
-     "odds": 1.9,
-     "book": "Unibet.fr",
-     "value": -0.017964879295398584
-    },
-    {
-     "name": "Quentin Halys",
-     "p": 0.48313941015547285,
-     "odds": 1.9,
-     "book": "Winamax",
-     "value": -0.08203512070460162
-    }
-   ]
-  },
-  {
    "id": "4e0a2e9c11be94414228a1a7579f4f8b",
    "key": "tennis_atp_swiss_indoors",
    "sport": "Tennis",
@@ -814,92 +914,42 @@
    "outcomes": [
     {
      "name": "Casper Ruud",
-     "p": 0.7011315372135839,
-     "odds": 1.38,
-     "book": "Betclic",
-     "value": -0.03243847864525429
+     "p": 0.6782522186574342,
+     "odds": 1.37,
+     "book": "Winamax",
+     "value": -0.07079446043931503
     },
     {
      "name": "Dominic Stephan Stricker",
-     "p": 0.298868462786416,
-     "odds": 2.97,
-     "book": "NetBet",
-     "value": -0.11236066552434443
-    }
-   ]
-  },
-  {
-   "id": "3c6239f48e3a272aa8f7bb0ae354f14a",
-   "key": "tennis_atp_swiss_indoors",
-   "sport": "Tennis",
-   "league": "ATP Swiss Indoors Basel",
-   "start": "2026-10-27T11:00:00Z",
-   "home": "Alejandro Tabilo",
-   "away": "Rafael Jodar",
-   "outcomes": [
-    {
-     "name": "Alejandro Tabilo",
-     "p": 0.2512303678503398,
-     "odds": 3.65,
+     "p": 0.32174778134256576,
+     "odds": 2.95,
      "book": "PMU",
-     "value": -0.08300915734625969
-    },
-    {
-     "name": "Rafael Jodar",
-     "p": 0.7487696321496602,
-     "odds": 1.27,
-     "book": "Betclic",
-     "value": -0.049062567169931515
+     "value": -0.05084404503943096
     }
    ]
   },
   {
-   "id": "a22f58e89e8b3130ae03006d1cb2d9ee",
+   "id": "36ef4cd7da7144b2b8560ee591755aea",
    "key": "tennis_atp_swiss_indoors",
    "sport": "Tennis",
    "league": "ATP Swiss Indoors Basel",
    "start": "2026-10-27T11:00:00Z",
-   "home": "Ben Shelton",
-   "away": "Aleksandar Kovacevic",
+   "home": "Hubert Hurkacz",
+   "away": "Zizou Bergs",
    "outcomes": [
     {
-     "name": "Aleksandar Kovacevic",
-     "p": 0.19097831117287162,
-     "odds": 4.4,
+     "name": "Hubert Hurkacz",
+     "p": 0.611920902282348,
+     "odds": 1.52,
      "book": "Winamax",
-     "value": -0.15969543083936477
+     "value": -0.06988022853083109
     },
     {
-     "name": "Ben Shelton",
-     "p": 0.8090216888271283,
-     "odds": 1.19,
+     "name": "Zizou Bergs",
+     "p": 0.3880790977176519,
+     "odds": 2.43,
      "book": "PMU",
-     "value": -0.03726419029571737
-    }
-   ]
-  },
-  {
-   "id": "7e3e5dde6da7e8cb88cd907563786e42",
-   "key": "tennis_atp_swiss_indoors",
-   "sport": "Tennis",
-   "league": "ATP Swiss Indoors Basel",
-   "start": "2026-10-27T11:00:00Z",
-   "home": "Alex Michelsen",
-   "away": "Botic van de Zandschulp",
-   "outcomes": [
-    {
-     "name": "Alex Michelsen",
-     "p": 0.6440664921257991,
-     "odds": 1.47,
-     "book": "Winamax",
-     "value": -0.05322225657507529
-    },
-    {
-     "name": "Botic van de Zandschulp",
-     "p": 0.35593350787420086,
-     "odds": 2.55,
-     "book": "Winamax",
-     "value": -0.09236955492078791
+     "value": -0.05696779254610573
     }
    ]
   },
@@ -908,73 +958,123 @@
    "key": "tennis_atp_swiss_indoors",
    "sport": "Tennis",
    "league": "ATP Swiss Indoors Basel",
-   "start": "2026-10-27T11:00:00Z",
+   "start": "2026-10-27T12:10:00Z",
    "home": "Jerome Kym",
    "away": "Arthur Rinderknech",
    "outcomes": [
     {
      "name": "Arthur Rinderknech",
-     "p": 0.4489185750636132,
-     "odds": 2.06,
+     "p": 0.4507356176701295,
+     "odds": 2.15,
      "book": "Betclic",
-     "value": -0.07522773536895677
+     "value": -0.03091842200922168
     },
     {
      "name": "Jerome Kym",
-     "p": 0.5510814249363869,
-     "odds": 1.71,
+     "p": 0.5492643823298705,
+     "odds": 1.66,
      "book": "Betclic",
-     "value": -0.05765076335877839
+     "value": -0.088221125332415
     }
    ]
   },
   {
-   "id": "622faf457a6ffd6d9effd2bc93280bac",
+   "id": "3c6239f48e3a272aa8f7bb0ae354f14a",
    "key": "tennis_atp_swiss_indoors",
    "sport": "Tennis",
    "league": "ATP Swiss Indoors Basel",
-   "start": "2026-10-27T11:00:00Z",
-   "home": "Rémy Bertola",
-   "away": "Denis Shapovalov",
+   "start": "2026-10-27T13:00:00Z",
+   "home": "Alejandro Tabilo",
+   "away": "Rafael Jodar",
    "outcomes": [
     {
-     "name": "Denis Shapovalov",
-     "p": 0.7237616245966976,
-     "odds": 1.31,
-     "book": "Betclic",
-     "value": -0.051872271778326096
+     "name": "Alejandro Tabilo",
+     "p": 0.25158660626131807,
+     "odds": 3.65,
+     "book": "PMU",
+     "value": -0.08170888714618907
     },
     {
-     "name": "Rémy Bertola",
-     "p": 0.2762383754033023,
-     "odds": 3.25,
+     "name": "Rafael Jodar",
+     "p": 0.7484133937386819,
+     "odds": 1.27,
+     "book": "Betclic",
+     "value": -0.04951498995187398
+    }
+   ]
+  },
+  {
+   "id": "7e3e5dde6da7e8cb88cd907563786e42",
+   "key": "tennis_atp_swiss_indoors",
+   "sport": "Tennis",
+   "league": "ATP Swiss Indoors Basel",
+   "start": "2026-10-27T13:20:00Z",
+   "home": "Alex Michelsen",
+   "away": "Botic van de Zandschulp",
+   "outcomes": [
+    {
+     "name": "Alex Michelsen",
+     "p": 0.6436932215234101,
+     "odds": 1.47,
      "book": "Winamax",
-     "value": -0.10222527993926744
+     "value": -0.05377096436058715
+    },
+    {
+     "name": "Botic van de Zandschulp",
+     "p": 0.35630677847658976,
+     "odds": 2.65,
+     "book": "PMU",
+     "value": -0.055787037037037135
     }
    ]
   },
   {
-   "id": "8f999f650b2a7e10b180a15fc7f863c1",
+   "id": "0fb51999c3020ac1f14f5cebbed40671",
    "key": "tennis_atp_swiss_indoors",
    "sport": "Tennis",
    "league": "ATP Swiss Indoors Basel",
-   "start": "2026-10-27T11:00:00Z",
-   "home": "Yannick Hanfmann",
-   "away": "Jan-Lennard Struff",
+   "start": "2026-10-27T14:10:00Z",
+   "home": "Giovanni Mpetshi Perricard",
+   "away": "Arthur Fils",
    "outcomes": [
     {
-     "name": "Jan-Lennard Struff",
-     "p": 0.5391363648167252,
-     "odds": 1.76,
-     "book": "Betclic",
-     "value": -0.05111999792256361
+     "name": "Arthur Fils",
+     "p": 0.7817637117836842,
+     "odds": 1.18,
+     "book": "Winamax",
+     "value": -0.07751882009525268
     },
     {
-     "name": "Yannick Hanfmann",
-     "p": 0.4608636351832747,
-     "odds": 1.99,
+     "name": "Giovanni Mpetshi Perricard",
+     "p": 0.21823628821631585,
+     "odds": 4.5,
+     "book": "PMU",
+     "value": -0.017936703026578682
+    }
+   ]
+  },
+  {
+   "id": "a22f58e89e8b3130ae03006d1cb2d9ee",
+   "key": "tennis_atp_swiss_indoors",
+   "sport": "Tennis",
+   "league": "ATP Swiss Indoors Basel",
+   "start": "2026-10-27T17:00:00Z",
+   "home": "Ben Shelton",
+   "away": "Aleksandar Kovacevic",
+   "outcomes": [
+    {
+     "name": "Aleksandar Kovacevic",
+     "p": 0.1886939903429301,
+     "odds": 4.5,
      "book": "Betclic",
-     "value": -0.08288136598528328
+     "value": -0.15087704345681452
+    },
+    {
+     "name": "Ben Shelton",
+     "p": 0.8113060096570699,
+     "odds": 1.19,
+     "book": "PMU",
+     "value": -0.03454584850808684
     }
    ]
   },
@@ -983,23 +1083,73 @@
    "key": "tennis_atp_swiss_indoors",
    "sport": "Tennis",
    "league": "ATP Swiss Indoors Basel",
-   "start": "2026-10-27T11:00:00Z",
+   "start": "2026-10-27T18:10:00Z",
    "home": "Stan Wawrinka",
    "away": "Jiri Lehecka",
    "outcomes": [
     {
      "name": "Jiri Lehecka",
-     "p": 0.8131808801650909,
+     "p": 0.8159741222677839,
      "odds": 1.17,
      "book": "Winamax",
-     "value": -0.048578370206843635
+     "value": -0.04531027694669287
     },
     {
      "name": "Stan Wawrinka",
-     "p": 0.18681911983490906,
+     "p": 0.18402587773221618,
      "odds": 4.6,
      "book": "Winamax",
-     "value": -0.14063204875941837
+     "value": -0.15348096243180565
+    }
+   ]
+  },
+  {
+   "id": "622faf457a6ffd6d9effd2bc93280bac",
+   "key": "tennis_atp_swiss_indoors",
+   "sport": "Tennis",
+   "league": "ATP Swiss Indoors Basel",
+   "start": "2026-10-28T11:00:00Z",
+   "home": "Rémy Bertola",
+   "away": "Denis Shapovalov",
+   "outcomes": [
+    {
+     "name": "Denis Shapovalov",
+     "p": 0.7277723197838635,
+     "odds": 1.31,
+     "book": "Betclic",
+     "value": -0.04661826108313882
+    },
+    {
+     "name": "Rémy Bertola",
+     "p": 0.2722276802161366,
+     "odds": 3.25,
+     "book": "Winamax",
+     "value": -0.11526003929755613
+    }
+   ]
+  },
+  {
+   "id": "8f999f650b2a7e10b180a15fc7f863c1",
+   "key": "tennis_atp_swiss_indoors",
+   "sport": "Tennis",
+   "league": "ATP Swiss Indoors Basel",
+   "start": "2026-10-28T11:00:00Z",
+   "home": "Yannick Hanfmann",
+   "away": "Jan-Lennard Struff",
+   "outcomes": [
+    {
+     "name": "Jan-Lennard Struff",
+     "p": 0.5385730261973931,
+     "odds": 1.76,
+     "book": "Betclic",
+     "value": -0.05211147389258808
+    },
+    {
+     "name": "Yannick Hanfmann",
+     "p": 0.4614269738026069,
+     "odds": 1.99,
+     "book": "Betclic",
+     "value": -0.08176032213281226
     }
    ]
   },
@@ -1008,123 +1158,48 @@
    "key": "tennis_atp_swiss_indoors",
    "sport": "Tennis",
    "league": "ATP Swiss Indoors Basel",
-   "start": "2026-10-27T11:00:00Z",
+   "start": "2026-10-28T11:00:00Z",
    "home": "Novak Djokovic",
    "away": "Ugo Humbert",
    "outcomes": [
     {
      "name": "Novak Djokovic",
-     "p": 0.6980263157894737,
+     "p": 0.6949710080285461,
      "odds": 1.37,
      "book": "Winamax",
-     "value": -0.04370394736842098
+     "value": -0.047889719000891784
     },
     {
      "name": "Ugo Humbert",
-     "p": 0.3019736842105263,
+     "p": 0.30502899197145406,
      "odds": 3.05,
      "book": "PMU",
-     "value": -0.07898026315789486
+     "value": -0.06966157448706523
     }
    ]
   },
   {
-   "id": "1ca1cacba4f84c42c3419ef268f6b3b9",
-   "key": "tennis_atp_vienna_open",
+   "id": "4131305472a4538a7dd867552b8a5154",
+   "key": "tennis_atp_swiss_indoors",
    "sport": "Tennis",
-   "league": "ATP Vienna Open",
-   "start": "2026-10-26T12:30:00Z",
-   "home": "Matteo Berrettini",
-   "away": "Tomas Martin Etcheverry",
+   "league": "ATP Swiss Indoors Basel",
+   "start": "2026-10-28T11:00:00Z",
+   "home": "Taylor Fritz",
+   "away": "Rinky Hijikata",
    "outcomes": [
     {
-     "name": "Matteo Berrettini",
-     "p": 0.6158427601157734,
-     "odds": 1.53,
-     "book": "Betclic",
-     "value": -0.05776057702286663
-    },
-    {
-     "name": "Tomas Martin Etcheverry",
-     "p": 0.38415723988422645,
-     "odds": 2.41,
-     "book": "Betclic",
-     "value": -0.07418105187901414
-    }
-   ]
-  },
-  {
-   "id": "4e8affe5c736072143aed4c30a548c66",
-   "key": "tennis_atp_vienna_open",
-   "sport": "Tennis",
-   "league": "ATP Vienna Open",
-   "start": "2026-10-26T13:40:00Z",
-   "home": "Tomas Machac",
-   "away": "Alex de Minaur",
-   "outcomes": [
-    {
-     "name": "Alex de Minaur",
-     "p": 0.6830499854693404,
-     "odds": 1.38,
-     "book": "Winamax",
-     "value": -0.05739102005231034
-    },
-    {
-     "name": "Tomas Machac",
-     "p": 0.3169500145306597,
-     "odds": 2.9,
-     "book": "Betclic",
-     "value": -0.08084495786108692
-    }
-   ]
-  },
-  {
-   "id": "19df044cd9025a373c245656976c1d6d",
-   "key": "tennis_atp_vienna_open",
-   "sport": "Tennis",
-   "league": "ATP Vienna Open",
-   "start": "2026-10-26T16:30:00Z",
-   "home": "Arthur Fery",
-   "away": "Jacob Fearnley",
-   "outcomes": [
-    {
-     "name": "Arthur Fery",
-     "p": 0.45423210057519803,
-     "odds": 2.05,
-     "book": "Winamax",
-     "value": -0.06882419382084415
-    },
-    {
-     "name": "Jacob Fearnley",
-     "p": 0.545767899424802,
-     "odds": 1.74,
+     "name": "Rinky Hijikata",
+     "p": 0.12053538267811603,
+     "odds": 6.75,
      "book": "PMU",
-     "value": -0.050363855000844615
-    }
-   ]
-  },
-  {
-   "id": "c5969cc3628058ea9d8326cb467f8344",
-   "key": "tennis_atp_vienna_open",
-   "sport": "Tennis",
-   "league": "ATP Vienna Open",
-   "start": "2026-10-26T16:30:00Z",
-   "home": "Jakub Mensik",
-   "away": "Lukas Neumayer",
-   "outcomes": [
-    {
-     "name": "Jakub Mensik",
-     "p": 0.8314656119534168,
-     "odds": 1.14,
-     "book": "Betclic",
-     "value": -0.05212920237310492
+     "value": -0.1863861669227168
     },
     {
-     "name": "Lukas Neumayer",
-     "p": 0.16853438804658316,
-     "odds": 5.2,
+     "name": "Taylor Fritz",
+     "p": 0.8794646173218839,
+     "odds": 1.08,
      "book": "Betclic",
-     "value": -0.12362118215776752
+     "value": -0.05017821329236538
     }
    ]
   },
@@ -1133,23 +1208,23 @@
    "key": "tennis_atp_vienna_open",
    "sport": "Tennis",
    "league": "ATP Vienna Open",
-   "start": "2026-10-26T17:40:00Z",
+   "start": "2026-10-26T17:43:53Z",
    "home": "Luciano Darderi",
    "away": "Matteo Arnaldi",
    "outcomes": [
     {
      "name": "Luciano Darderi",
-     "p": 0.45890025575447563,
-     "odds": 2.04,
-     "book": "Betclic",
-     "value": -0.06384347826086967
+     "p": 0.7582993684221061,
+     "odds": 1.15,
+     "book": "Winamax",
+     "value": -0.12795572631457808
     },
     {
      "name": "Matteo Arnaldi",
-     "p": 0.5410997442455243,
-     "odds": 1.72,
-     "book": "Winamax",
-     "value": -0.06930843989769819
+     "p": 0.2417006315778939,
+     "odds": 4.25,
+     "book": "PMU",
+     "value": 0.02722768420604904
     }
    ]
   },
@@ -1164,42 +1239,17 @@
    "outcomes": [
     {
      "name": "Learner Tien",
-     "p": 0.683231402743598,
-     "odds": 1.38,
-     "book": "Winamax",
-     "value": -0.0571406642138349
+     "p": 0.6848723289362031,
+     "odds": 1.39,
+     "book": "Unibet.fr",
+     "value": -0.048027462778677754
     },
     {
      "name": "Luca Van Assche",
-     "p": 0.31676859725640216,
+     "p": 0.31512767106379697,
      "odds": 2.9,
-     "book": "Unibet.fr",
-     "value": -0.08137106795643378
-    }
-   ]
-  },
-  {
-   "id": "0bf567898c610e332a53d119bf4d2c77",
-   "key": "tennis_atp_vienna_open",
-   "sport": "Tennis",
-   "league": "ATP Vienna Open",
-   "start": "2026-10-27T12:30:00Z",
-   "home": "Alexander Zverev",
-   "away": "Martin Landaluce",
-   "outcomes": [
-    {
-     "name": "Alexander Zverev",
-     "p": 0.8819834729740601,
-     "odds": 1.08,
      "book": "Betclic",
-     "value": -0.04745784918801499
-    },
-    {
-     "name": "Martin Landaluce",
-     "p": 0.11801652702593984,
-     "odds": 7.5,
-     "book": "PMU",
-     "value": -0.1148760473054512
+     "value": -0.08612975391498878
     }
    ]
   },
@@ -1214,67 +1264,17 @@
    "outcomes": [
     {
      "name": "Andrey Rublev",
-     "p": 0.4168315938853349,
+     "p": 0.42645276706449914,
      "odds": 2.25,
      "book": "PMU",
-     "value": -0.06212891375799645
+     "value": -0.040481274104876896
     },
     {
      "name": "Tommy Paul",
-     "p": 0.5831684061146651,
-     "odds": 1.61,
+     "p": 0.5735472329355009,
+     "odds": 1.63,
      "book": "Betclic",
-     "value": -0.061098866155389064
-    }
-   ]
-  },
-  {
-   "id": "01c5f7c5dda8e39a8d33c84b8d9e323d",
-   "key": "tennis_atp_vienna_open",
-   "sport": "Tennis",
-   "league": "ATP Vienna Open",
-   "start": "2026-10-27T12:30:00Z",
-   "home": "Tallon Griekspoor",
-   "away": "Brandon Nakashima",
-   "outcomes": [
-    {
-     "name": "Brandon Nakashima",
-     "p": 0.6654855557887296,
-     "odds": 1.41,
-     "book": "Winamax",
-     "value": -0.061665366337891325
-    },
-    {
-     "name": "Tallon Griekspoor",
-     "p": 0.3345144442112704,
-     "odds": 2.9,
-     "book": "PMU",
-     "value": -0.029908111787315783
-    }
-   ]
-  },
-  {
-   "id": "e9aca20f62c49ea43ad8b9d91f00330b",
-   "key": "tennis_atp_vienna_open",
-   "sport": "Tennis",
-   "league": "ATP Vienna Open",
-   "start": "2026-10-27T12:30:00Z",
-   "home": "Cameron Norrie",
-   "away": "Francisco Cerundolo",
-   "outcomes": [
-    {
-     "name": "Cameron Norrie",
-     "p": 0.34999472964589246,
-     "odds": 2.7,
-     "book": "Betclic",
-     "value": -0.05501422995609029
-    },
-    {
-     "name": "Francisco Cerundolo",
-     "p": 0.6500052703541076,
-     "odds": 1.43,
-     "book": "Betclic",
-     "value": -0.07049246339362614
+     "value": -0.06511801031513353
     }
    ]
   },
@@ -1283,48 +1283,98 @@
    "key": "tennis_atp_vienna_open",
    "sport": "Tennis",
    "league": "ATP Vienna Open",
-   "start": "2026-10-27T12:30:00Z",
+   "start": "2026-10-27T13:40:00Z",
    "home": "Karen Khachanov",
    "away": "Carlos Alcaraz",
    "outcomes": [
     {
      "name": "Carlos Alcaraz",
-     "p": 0.7968351540241364,
+     "p": 0.7987631007459164,
      "odds": 1.19,
      "book": "Winamax",
-     "value": -0.05176616671127776
+     "value": -0.04947191011235952
     },
     {
      "name": "Karen Khachanov",
-     "p": 0.2031648459758636,
+     "p": 0.20123689925408367,
      "odds": 4.3,
      "book": "Winamax",
-     "value": -0.12639116230378655
+     "value": -0.13468133320744025
     }
    ]
   },
   {
-   "id": "ad2ec395411c7dd956e92178f00c0c8d",
+   "id": "2121f3ad0a65fd648051aae488ff71ce",
    "key": "tennis_atp_vienna_open",
    "sport": "Tennis",
    "league": "ATP Vienna Open",
-   "start": "2026-10-27T12:30:00Z",
-   "home": "Daniel Merida Aguilar",
-   "away": "Daniil Medvedev",
+   "start": "2026-10-27T14:00:00Z",
+   "home": "Adrian Mannarino",
+   "away": "Ignacio Buse",
    "outcomes": [
     {
-     "name": "Daniel Merida Aguilar",
-     "p": 0.22924400649000493,
-     "odds": 3.95,
+     "name": "Adrian Mannarino",
+     "p": 0.6109815516595177,
+     "odds": 1.49,
      "book": "PMU",
-     "value": -0.09448617436448048
+     "value": -0.08963748802731863
     },
     {
-     "name": "Daniil Medvedev",
-     "p": 0.770755993509995,
-     "odds": 1.23,
+     "name": "Ignacio Buse",
+     "p": 0.3890184483404822,
+     "odds": 2.35,
+     "book": "PMU",
+     "value": -0.08580664639986679
+    }
+   ]
+  },
+  {
+   "id": "e9aca20f62c49ea43ad8b9d91f00330b",
+   "key": "tennis_atp_vienna_open",
+   "sport": "Tennis",
+   "league": "ATP Vienna Open",
+   "start": "2026-10-27T15:10:00Z",
+   "home": "Cameron Norrie",
+   "away": "Francisco Cerundolo",
+   "outcomes": [
+    {
+     "name": "Cameron Norrie",
+     "p": 0.3472275091993402,
+     "odds": 2.65,
+     "book": "Winamax",
+     "value": -0.07984710062174849
+    },
+    {
+     "name": "Francisco Cerundolo",
+     "p": 0.6527724908006598,
+     "odds": 1.46,
      "book": "Betclic",
-     "value": -0.05197012798270617
+     "value": -0.0469521634310367
+    }
+   ]
+  },
+  {
+   "id": "0bf567898c610e332a53d119bf4d2c77",
+   "key": "tennis_atp_vienna_open",
+   "sport": "Tennis",
+   "league": "ATP Vienna Open",
+   "start": "2026-10-27T16:30:00Z",
+   "home": "Alexander Zverev",
+   "away": "Martin Landaluce",
+   "outcomes": [
+    {
+     "name": "Alexander Zverev",
+     "p": 0.8853654626857794,
+     "odds": 1.08,
+     "book": "Betclic",
+     "value": -0.04380530029935814
+    },
+    {
+     "name": "Martin Landaluce",
+     "p": 0.11463453731422063,
+     "odds": 7.5,
+     "book": "PMU",
+     "value": -0.14024097014334524
     }
    ]
   },
@@ -1333,23 +1383,73 @@
    "key": "tennis_atp_vienna_open",
    "sport": "Tennis",
    "league": "ATP Vienna Open",
-   "start": "2026-10-27T12:30:00Z",
+   "start": "2026-10-27T19:00:00Z",
    "home": "Flavio Cobolli",
    "away": "Grigor Dimitrov",
    "outcomes": [
     {
      "name": "Flavio Cobolli",
-     "p": 0.639989672718791,
+     "p": 0.6392018887658423,
      "odds": 1.49,
      "book": "Betclic",
-     "value": -0.04641538764900133
+     "value": -0.047589185738895035
     },
     {
      "name": "Grigor Dimitrov",
-     "p": 0.36001032728120896,
+     "p": 0.3607981112341578,
      "odds": 2.5,
      "book": "Winamax",
-     "value": -0.09997418179697759
+     "value": -0.09800472191460552
+    }
+   ]
+  },
+  {
+   "id": "01c5f7c5dda8e39a8d33c84b8d9e323d",
+   "key": "tennis_atp_vienna_open",
+   "sport": "Tennis",
+   "league": "ATP Vienna Open",
+   "start": "2026-10-28T10:30:00Z",
+   "home": "Tallon Griekspoor",
+   "away": "Brandon Nakashima",
+   "outcomes": [
+    {
+     "name": "Brandon Nakashima",
+     "p": 0.6643678160919539,
+     "odds": 1.42,
+     "book": "Winamax",
+     "value": -0.05659770114942542
+    },
+    {
+     "name": "Tallon Griekspoor",
+     "p": 0.33563218390804594,
+     "odds": 2.7,
+     "book": "Winamax",
+     "value": -0.09379310344827585
+    }
+   ]
+  },
+  {
+   "id": "ad2ec395411c7dd956e92178f00c0c8d",
+   "key": "tennis_atp_vienna_open",
+   "sport": "Tennis",
+   "league": "ATP Vienna Open",
+   "start": "2026-10-28T10:30:00Z",
+   "home": "Daniel Merida Aguilar",
+   "away": "Daniil Medvedev",
+   "outcomes": [
+    {
+     "name": "Daniel Merida Aguilar",
+     "p": 0.22653839987173321,
+     "odds": 3.95,
+     "book": "PMU",
+     "value": -0.10517332050665373
+    },
+    {
+     "name": "Daniil Medvedev",
+     "p": 0.7734616001282668,
+     "odds": 1.23,
+     "book": "Betclic",
+     "value": -0.04864223184223182
     }
    ]
   },
@@ -1358,23 +1458,23 @@
    "key": "tennis_atp_vienna_open",
    "sport": "Tennis",
    "league": "ATP Vienna Open",
-   "start": "2026-10-27T12:30:00Z",
+   "start": "2026-10-28T10:30:00Z",
    "home": "Lorenzo Musetti",
    "away": "Frances Tiafoe",
    "outcomes": [
     {
      "name": "Frances Tiafoe",
-     "p": 0.5177498316323887,
+     "p": 0.5133702511101301,
      "odds": 1.81,
      "book": "Betclic",
-     "value": -0.06287280474537638
+     "value": -0.07079984549066443
     },
     {
      "name": "Lorenzo Musetti",
-     "p": 0.4822501683676112,
+     "p": 0.4866297488898698,
      "odds": 1.94,
      "book": "Betclic",
-     "value": -0.06443467336683428
+     "value": -0.055938287153652566
     }
    ]
   },
@@ -1383,23 +1483,23 @@
    "key": "tennis_atp_vienna_open",
    "sport": "Tennis",
    "league": "ATP Vienna Open",
-   "start": "2026-10-27T12:30:00Z",
+   "start": "2026-10-28T10:30:00Z",
    "home": "Jurij Rodionov",
    "away": "Nikoloz Basilashvili",
    "outcomes": [
     {
      "name": "Jurij Rodionov",
-     "p": 0.4503951387467283,
+     "p": 0.4472308508220319,
      "odds": 2.1,
      "book": "PMU",
-     "value": -0.0541702086318705
+     "value": -0.06081521327373296
     },
     {
      "name": "Nikoloz Basilashvili",
-     "p": 0.5496048612532716,
+     "p": 0.552769149177968,
      "odds": 1.7,
      "book": "Betclic",
-     "value": -0.06567173586943831
+     "value": -0.06029244639745435
     }
    ]
   },
@@ -1414,17 +1514,17 @@
    "outcomes": [
     {
      "name": "Maya Joint",
-     "p": 0.2963045575920996,
-     "odds": 3.2,
-     "book": "Betclic",
-     "value": -0.05182541570528121
+     "p": 0.31516749794084165,
+     "odds": 3.1,
+     "book": "PMU",
+     "value": -0.02298075638339092
     },
     {
      "name": "Sorana Cirstea",
-     "p": 0.7036954424079004,
-     "odds": 1.32,
-     "book": "Winamax",
-     "value": -0.07112201602157142
+     "p": 0.6848325020591584,
+     "odds": 1.36,
+     "book": "Betclic",
+     "value": -0.0686277971995446
     }
    ]
   },
@@ -1439,17 +1539,42 @@
    "outcomes": [
     {
      "name": "Ann Li",
-     "p": 0.4720100526751676,
+     "p": 0.46219489639073674,
      "odds": 1.97,
      "book": "Betclic",
-     "value": -0.07014019622991985
+     "value": -0.08947605411024862
     },
     {
      "name": "Ekaterina Alexandrova",
-     "p": 0.5279899473248324,
+     "p": 0.5378051036092633,
      "odds": 1.77,
      "book": "Betclic",
-     "value": -0.06545779323504664
+     "value": -0.048084966611603996
+    }
+   ]
+  },
+  {
+   "id": "dd8e86d27b17b25b6860ad83383b4ca7",
+   "key": "tennis_wta_pan_pacific_open",
+   "sport": "Tennis",
+   "league": "WTA Pan Pacific Open",
+   "start": "2026-10-27T02:40:00Z",
+   "home": "Yulia Putintseva",
+   "away": "Maria Sakkari",
+   "outcomes": [
+    {
+     "name": "Maria Sakkari",
+     "p": 0.6045959650447728,
+     "odds": 1.57,
+     "book": "Betclic",
+     "value": -0.050784334879706794
+    },
+    {
+     "name": "Yulia Putintseva",
+     "p": 0.3954040349552271,
+     "odds": 2.31,
+     "book": "Betclic",
+     "value": -0.08661667925342542
     }
    ]
   },
@@ -1458,23 +1583,73 @@
    "key": "tennis_wta_pan_pacific_open",
    "sport": "Tennis",
    "league": "WTA Pan Pacific Open",
-   "start": "2026-10-27T02:00:00Z",
+   "start": "2026-10-27T03:30:00Z",
    "home": "Diane Parry",
    "away": "Cristina Bucsa",
    "outcomes": [
     {
      "name": "Cristina Bucsa",
-     "p": 0.5166667762444197,
-     "odds": 1.81,
+     "p": 0.5152833380895285,
+     "odds": 1.84,
      "book": "Betclic",
-     "value": -0.06483313499760035
+     "value": -0.05187865791526747
     },
     {
      "name": "Diane Parry",
-     "p": 0.48333322375558024,
-     "odds": 1.93,
+     "p": 0.48471666191047164,
+     "odds": 1.9,
+     "book": "Winamax",
+     "value": -0.07903834237010399
+    }
+   ]
+  },
+  {
+   "id": "ef090e77f33d7b44822fe9c36c1a3b6f",
+   "key": "tennis_wta_pan_pacific_open",
+   "sport": "Tennis",
+   "league": "WTA Pan Pacific Open",
+   "start": "2026-10-27T04:30:00Z",
+   "home": "Aliaksandra Sasnovich",
+   "away": "Nikola Bartunkova",
+   "outcomes": [
+    {
+     "name": "Aliaksandra Sasnovich",
+     "p": 0.3388382450882451,
+     "odds": 2.55,
      "book": "Betclic",
-     "value": -0.06716687815173017
+     "value": -0.13596247502497505
+    },
+    {
+     "name": "Nikola Bartunkova",
+     "p": 0.661161754911755,
+     "odds": 1.47,
+     "book": "Winamax",
+     "value": -0.028092220279720137
+    }
+   ]
+  },
+  {
+   "id": "c1e155716056b82035c4dc6a7b901284",
+   "key": "tennis_wta_pan_pacific_open",
+   "sport": "Tennis",
+   "league": "WTA Pan Pacific Open",
+   "start": "2026-10-27T05:30:00Z",
+   "home": "Tereza Valentova",
+   "away": "Mia Pohánková",
+   "outcomes": [
+    {
+     "name": "Mia Pohánková",
+     "p": 0.3356920137321393,
+     "odds": 2.7,
+     "book": "Winamax",
+     "value": -0.09363156292322383
+    },
+    {
+     "name": "Tereza Valentova",
+     "p": 0.6643079862678607,
+     "odds": 1.43,
+     "book": "Betclic",
+     "value": -0.050039579636959264
     }
    ]
   },
@@ -1483,7 +1658,7 @@
    "key": "tennis_wta_pan_pacific_open",
    "sport": "Tennis",
    "league": "WTA Pan Pacific Open",
-   "start": "2026-10-27T02:00:00Z",
+   "start": "2026-10-27T06:00:00Z",
    "home": "Leylah Fernandez",
    "away": "Himeno Sakatsume",
    "outcomes": [
@@ -1508,98 +1683,73 @@
    "key": "tennis_wta_pan_pacific_open",
    "sport": "Tennis",
    "league": "WTA Pan Pacific Open",
-   "start": "2026-10-27T02:00:00Z",
+   "start": "2026-10-27T08:00:00Z",
    "home": "Naomi Osaka",
    "away": "Jasmine Paolini",
    "outcomes": [
     {
      "name": "Jasmine Paolini",
-     "p": 0.264870778066457,
+     "p": 0.2641324772940808,
      "odds": 3.45,
      "book": "PMU",
-     "value": -0.08619581567072332
+     "value": -0.08874295333542126
     },
     {
      "name": "Naomi Osaka",
-     "p": 0.735129221933543,
+     "p": 0.7358675227059193,
      "odds": 1.29,
      "book": "Betclic",
-     "value": -0.05168330370572949
+     "value": -0.05073089570936418
     }
    ]
   },
   {
-   "id": "dd8e86d27b17b25b6860ad83383b4ca7",
+   "id": "a9fac6056a7fb978aceab5182f56271b",
    "key": "tennis_wta_pan_pacific_open",
    "sport": "Tennis",
    "league": "WTA Pan Pacific Open",
-   "start": "2026-10-27T02:40:00Z",
-   "home": "Yulia Putintseva",
-   "away": "Maria Sakkari",
+   "start": "2026-10-28T04:00:00Z",
+   "home": "Alexandra Eala",
+   "away": "Talia Gibson",
    "outcomes": [
     {
-     "name": "Maria Sakkari",
-     "p": 0.6041210811275082,
-     "odds": 1.57,
-     "book": "Betclic",
-     "value": -0.05152990262981216
-    },
-    {
-     "name": "Yulia Putintseva",
-     "p": 0.39587891887249177,
-     "odds": 2.31,
-     "book": "Betclic",
-     "value": -0.08551969740454402
-    }
-   ]
-  },
-  {
-   "id": "ef090e77f33d7b44822fe9c36c1a3b6f",
-   "key": "tennis_wta_pan_pacific_open",
-   "sport": "Tennis",
-   "league": "WTA Pan Pacific Open",
-   "start": "2026-10-27T04:30:00Z",
-   "home": "Aliaksandra Sasnovich",
-   "away": "Nikola Bartunkova",
-   "outcomes": [
-    {
-     "name": "Aliaksandra Sasnovich",
-     "p": 0.36528191064132176,
-     "odds": 2.55,
-     "book": "Betclic",
-     "value": -0.06853112786462956
-    },
-    {
-     "name": "Nikola Bartunkova",
-     "p": 0.6347180893586782,
-     "odds": 1.48,
+     "name": "Alexandra Eala",
+     "p": 0.7199170124481328,
+     "odds": 1.3,
      "book": "Winamax",
-     "value": -0.06061722774915623
+     "value": -0.06410788381742738
+    },
+    {
+     "name": "Talia Gibson",
+     "p": 0.2800829875518672,
+     "odds": 3.1,
+     "book": "PMU",
+     "value": -0.1317427385892116
     }
    ]
   },
   {
-   "id": "c1e155716056b82035c4dc6a7b901284",
+   "id": "8cc69dee985efaaa4d02ce47ce9ae17a",
    "key": "tennis_wta_pan_pacific_open",
    "sport": "Tennis",
    "league": "WTA Pan Pacific Open",
-   "start": "2026-10-27T05:30:00Z",
-   "home": "Tereza Valentova",
-   "away": "Mia Pohánková",
+   "start": "2026-10-28T04:00:00Z",
+   "home": "Alycia Parks",
+   "away": "Kimberly Birrell",
    "outcomes": [
     {
-     "name": "Mia Pohánková",
-     "p": 0.34025841333361717,
-     "odds": 2.7,
-     "book": "Winamax",
-     "value": -0.08130228399923356
+     "name": "Alycia Parks",
+     "p": 0.3981045751633987,
+     "odds": 2.23,
+     "book": "Betclic",
+     "value": -0.11222679738562091
     },
     {
-     "name": "Tereza Valentova",
-     "p": 0.6597415866663828,
-     "odds": 1.43,
-     "book": "Betclic",
-     "value": -0.05656953106707263
+     "name": "Kimberly Birrell",
+     "p": 0.6018954248366013,
+     "odds": 1.55,
+     "book": "PMU",
+     "value": -0.06706209150326792
     }
    ]
   }
